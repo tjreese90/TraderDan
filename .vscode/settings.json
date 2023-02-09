@@ -1,0 +1,31 @@
+{
+    "cSpell.words": [
+        "attemps",
+        "Bollinger",
+        "dropna",
+        "dt",
+        "fillna",
+        "gridcolor",
+        "iloc",
+        "iterrows",
+        "Keltner",
+        "MACD",
+        "marubozu",
+        "nticks",
+        "oanda",
+        "pairname",
+        "perc",
+        "rangebreaks",
+        "rangeslider",
+        "sheetname",
+        "startcol",
+        "startrow",
+        "technicals",
+        "timestr",
+        "xaxes",
+        "xaxis",
+        "xlsxwriter",
+        "yaxes"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}
