@@ -1,0 +1,1921 @@
+[
+    {
+        "label": "ssl",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ssl",
+        "description": "ssl",
+        "detail": "ssl",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "constants.defs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "constants.defs",
+        "description": "constants.defs",
+        "detail": "constants.defs",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "instrumentCollection",
+        "importPath": "instrumentCollection.instrument_collection",
+        "description": "instrumentCollection.instrument_collection",
+        "isExtraImport": true,
+        "detail": "instrumentCollection.instrument_collection",
+        "documentation": {}
+    },
+    {
+        "label": "InstrumentCollection",
+        "importPath": "instrumentCollection.instrument_collection",
+        "description": "instrumentCollection.instrument_collection",
+        "isExtraImport": true,
+        "detail": "instrumentCollection.instrument_collection",
+        "documentation": {}
+    },
+    {
+        "label": "InstrumentCollection",
+        "importPath": "instrumentCollection.instrument_collection",
+        "description": "instrumentCollection.instrument_collection",
+        "isExtraImport": true,
+        "detail": "instrumentCollection.instrument_collection",
+        "documentation": {}
+    },
+    {
+        "label": "InstrumentCollection",
+        "importPath": "instrumentCollection.instrument_collection",
+        "description": "instrumentCollection.instrument_collection",
+        "isExtraImport": true,
+        "detail": "instrumentCollection.instrument_collection",
+        "documentation": {}
+    },
+    {
+        "label": "instrumentCollection",
+        "importPath": "instrumentCollection.instrument_collection",
+        "description": "instrumentCollection.instrument_collection",
+        "isExtraImport": true,
+        "detail": "instrumentCollection.instrument_collection",
+        "documentation": {}
+    },
+    {
+        "label": "instrumentCollection",
+        "importPath": "instrumentCollection.instrument_collection",
+        "description": "instrumentCollection.instrument_collection",
+        "isExtraImport": true,
+        "detail": "instrumentCollection.instrument_collection",
+        "documentation": {}
+    },
+    {
+        "label": "instrumentCollection",
+        "importPath": "instrumentCollection.instrument_collection",
+        "description": "instrumentCollection.instrument_collection",
+        "isExtraImport": true,
+        "detail": "instrumentCollection.instrument_collection",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "OpenTrade",
+        "importPath": "models.open_trade",
+        "description": "models.open_trade",
+        "isExtraImport": true,
+        "detail": "models.open_trade",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "float_repr_style",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ZipFile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "BadZipfile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "LogWrapper",
+        "importPath": "instrumentCollection.log_wrapper",
+        "description": "instrumentCollection.log_wrapper",
+        "isExtraImport": true,
+        "detail": "instrumentCollection.log_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TradeSettings",
+        "importPath": "models.trade_settings",
+        "description": "models.trade_settings",
+        "isExtraImport": true,
+        "detail": "models.trade_settings",
+        "documentation": {}
+    },
+    {
+        "label": "OandaApi",
+        "importPath": "api.oanda_api",
+        "description": "api.oanda_api",
+        "isExtraImport": true,
+        "detail": "api.oanda_api",
+        "documentation": {}
+    },
+    {
+        "label": "OandaApi",
+        "importPath": "api.oanda_api",
+        "description": "api.oanda_api",
+        "isExtraImport": true,
+        "detail": "api.oanda_api",
+        "documentation": {}
+    },
+    {
+        "label": "OandaApi",
+        "importPath": "api.oanda_api",
+        "description": "api.oanda_api",
+        "isExtraImport": true,
+        "detail": "api.oanda_api",
+        "documentation": {}
+    },
+    {
+        "label": "OandaApi",
+        "importPath": "api.oanda_api",
+        "description": "api.oanda_api",
+        "isExtraImport": true,
+        "detail": "api.oanda_api",
+        "documentation": {}
+    },
+    {
+        "label": "OandaApi",
+        "importPath": "api.oanda_api",
+        "description": "api.oanda_api",
+        "isExtraImport": true,
+        "detail": "api.oanda_api",
+        "documentation": {}
+    },
+    {
+        "label": "CandleManger",
+        "importPath": "bot.candle_manager",
+        "description": "bot.candle_manager",
+        "isExtraImport": true,
+        "detail": "bot.candle_manager",
+        "documentation": {}
+    },
+    {
+        "label": "CandleTiming",
+        "importPath": "models.candle_timing",
+        "description": "models.candle_timing",
+        "isExtraImport": true,
+        "detail": "models.candle_timing",
+        "documentation": {}
+    },
+    {
+        "label": "CandleTiming",
+        "importPath": "models.candle_timing",
+        "description": "models.candle_timing",
+        "isExtraImport": true,
+        "detail": "models.candle_timing",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.graph_objects",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.graph_objects",
+        "description": "plotly.graph_objects",
+        "detail": "plotly.graph_objects",
+        "documentation": {}
+    },
+    {
+        "label": "make_subplots",
+        "importPath": "plotly.subplots",
+        "description": "plotly.subplots",
+        "isExtraImport": true,
+        "detail": "plotly.subplots",
+        "documentation": {}
+    },
+    {
+        "label": "Instrument",
+        "importPath": "models.instrument",
+        "description": "models.instrument",
+        "isExtraImport": true,
+        "detail": "models.instrument",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "MACD",
+        "importPath": "technicals.indicators",
+        "description": "technicals.indicators",
+        "isExtraImport": true,
+        "detail": "technicals.indicators",
+        "documentation": {}
+    },
+    {
+        "label": "MACD",
+        "importPath": "technicals.indicators",
+        "description": "technicals.indicators",
+        "isExtraImport": true,
+        "detail": "technicals.indicators",
+        "documentation": {}
+    },
+    {
+        "label": "GuruTester",
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "isExtraImport": true,
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "GuruTester",
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "isExtraImport": true,
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "Process",
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "isExtraImport": true,
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "create_ma_res",
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "isExtraImport": true,
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "oandapy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "oandapy",
+        "description": "oandapy",
+        "detail": "oandapy",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "run_ma_sum",
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "isExtraImport": true,
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "run_collection",
+        "importPath": "instrumentCollection.collect_data",
+        "description": "instrumentCollection.collect_data",
+        "isExtraImport": true,
+        "detail": "instrumentCollection.collect_data",
+        "documentation": {}
+    },
+    {
+        "label": "run_ema_macd",
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "isExtraImport": true,
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "run_ema_macd",
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "isExtraImport": true,
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "bot.bot",
+        "description": "bot.bot",
+        "isExtraImport": true,
+        "detail": "bot.bot",
+        "documentation": {}
+    },
+    {
+        "label": "OandaApi",
+        "kind": 6,
+        "importPath": "api.oanda_api",
+        "description": "api.oanda_api",
+        "peekOfCode": "class OandaApi:\n    def __init__(self):\n        self.session = requests.Session()\n        self.session.headers.update({\n            \"Authorization\" : f\"Bearer {defs.API_KEY}\",\n            \"Content-Type\" : \"application/json\"\n        })\n    def make_request(self, url, verb='get', code=200, params=None, data=None, headers=None):\n        full_url = f\"{defs.URL}/{url}\"\n        if data is not None:",
+        "detail": "api.oanda_api",
+        "documentation": {}
+    },
+    {
+        "label": "vba_filename",
+        "kind": 5,
+        "importPath": "bin.vba_extract",
+        "description": "bin.vba_extract",
+        "peekOfCode": "vba_filename = 'vbaProject.bin'\n# Get the xlsm file name from the commandline.\nif len(sys.argv) > 1:\n    xlsm_file = sys.argv[1]\nelse:\n    print(\"\\nUtility to extract a vbaProject.bin binary from an Excel 2007+ \"\n          \"xlsm macro file for insertion into an XlsxWriter file.\"\n          \"\\n\"\n          \"See: https://xlsxwriter.readthedocs.io/working_with_macros.html\\n\"\n          \"\\n\"",
+        "detail": "bin.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "kind": 6,
+        "importPath": "bot.bot",
+        "description": "bot.bot",
+        "peekOfCode": "class Bot:\n    ERROR_LOG = \"error\"\n    MAIN_LOG = \"main\"\n    GRANULARITY = \"M5\"\n    def __init__(self):\n        self.load_settings()\n        self.setup_logs()\n        self.api = OandaApi()\n        self.candle_manger = CandleManger(self.api, self.trade_settings, self.log_message, Bot.GRANULARITY)\n        self.log_to_main(\"Bot Started\")",
+        "detail": "bot.bot",
+        "documentation": {}
+    },
+    {
+        "label": "CandleManger",
+        "kind": 6,
+        "importPath": "bot.candle_manager",
+        "description": "bot.candle_manager",
+        "peekOfCode": "class CandleManger:\n    def __init__(self, api: OandaApi, trade_settings, log_message, granularity):\n        self.api = api\n        self.trade_settings = trade_settings\n        self.log_message = log_message\n        self.granularity = granularity\n        self.pairs_list = list(self.trade_settings.keys())\n        self.timings = { p: CandleTiming(self.api.last_complete_candle(p, self.granularity)) for p in self.pairs_list }\n        for p, t in self.timings.items():\n            self.log_message(f\"CandleManger() init last_candle:{t}\", p)",
+        "detail": "bot.candle_manager",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "constants.defs",
+        "description": "constants.defs",
+        "peekOfCode": "API_KEY = \"91e97c7b261216d6e6727272d86892a0-da24a042336ef33336d716c451ea6d36\"\nACCOUNT_ID = \"101-001-24345029-002\"\nURL = \"https://api-fxpractice.oanda.com/v3/\"\nSELL = -1\nBUY = 1\nNONE = 0",
+        "detail": "constants.defs",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_ID",
+        "kind": 5,
+        "importPath": "constants.defs",
+        "description": "constants.defs",
+        "peekOfCode": "ACCOUNT_ID = \"101-001-24345029-002\"\nURL = \"https://api-fxpractice.oanda.com/v3/\"\nSELL = -1\nBUY = 1\nNONE = 0",
+        "detail": "constants.defs",
+        "documentation": {}
+    },
+    {
+        "label": "URL",
+        "kind": 5,
+        "importPath": "constants.defs",
+        "description": "constants.defs",
+        "peekOfCode": "URL = \"https://api-fxpractice.oanda.com/v3/\"\nSELL = -1\nBUY = 1\nNONE = 0",
+        "detail": "constants.defs",
+        "documentation": {}
+    },
+    {
+        "label": "SELL",
+        "kind": 5,
+        "importPath": "constants.defs",
+        "description": "constants.defs",
+        "peekOfCode": "SELL = -1\nBUY = 1\nNONE = 0",
+        "detail": "constants.defs",
+        "documentation": {}
+    },
+    {
+        "label": "BUY",
+        "kind": 5,
+        "importPath": "constants.defs",
+        "description": "constants.defs",
+        "peekOfCode": "BUY = 1\nNONE = 0",
+        "detail": "constants.defs",
+        "documentation": {}
+    },
+    {
+        "label": "NONE",
+        "kind": 5,
+        "importPath": "constants.defs",
+        "description": "constants.defs",
+        "peekOfCode": "NONE = 0",
+        "detail": "constants.defs",
+        "documentation": {}
+    },
+    {
+        "label": "CandlePlot",
+        "kind": 6,
+        "importPath": "exploration.plotting",
+        "description": "exploration.plotting",
+        "peekOfCode": "class CandlePlot:\n    def __init__(self,df, candles=True):\n        self.df_plot = df.copy()\n        self.candles = candles\n        self.create_candle_fig()\n    def add_timestr(self):\n        self.df_plot['time'] = pd.to_datetime(self.df_plot['time'])\n        self.df_plot['sTime'] = [dt.datetime.strftime(x, \"%a %b %d, %Y %I:%M %p\") for x in self.df_plot.time]\n    def create_candle_fig(self):\n        self.add_timestr()",
+        "detail": "exploration.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "save_file",
+        "kind": 2,
+        "importPath": "instrumentCollection.collect_data",
+        "description": "instrumentCollection.collect_data",
+        "peekOfCode": "def save_file(final_df: pd.DataFrame, file_prefix, granularity, pair):\n    filename = f\"{file_prefix}{pair}_{granularity}.pkl\"\n    final_df.drop_duplicates(subset=['time'], inplace=True)\n    final_df.sort_values(by='time', inplace=True)\n    final_df.reset_index(drop=True, inplace=True)\n    final_df.to_pickle(filename)\n    s1 = (f\"{pair} {granularity} {final_df.time.min()} {final_df.time.max()} \")\n    print(f\"*** {s1} --> {final_df.shape[0]} candles ***\")\ndef fetch_candles(pair, granularity, date_f: dt.datetime, date_t: dt.datetime, api: OandaApi):\n    attempts = 0",
+        "detail": "instrumentCollection.collect_data",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_candles",
+        "kind": 2,
+        "importPath": "instrumentCollection.collect_data",
+        "description": "instrumentCollection.collect_data",
+        "peekOfCode": "def fetch_candles(pair, granularity, date_f: dt.datetime, date_t: dt.datetime, api: OandaApi):\n    attempts = 0\n    candles_df = api.get_candles_df(\n            pair,\n            granularity=granularity,\n            date_f=date_f,\n            date_t=date_t,\n        )\n    while attempts < 3:\n        candles_df = api.get_candles_df(",
+        "detail": "instrumentCollection.collect_data",
+        "documentation": {}
+    },
+    {
+        "label": "collect_data",
+        "kind": 2,
+        "importPath": "instrumentCollection.collect_data",
+        "description": "instrumentCollection.collect_data",
+        "peekOfCode": "def collect_data(pair, granularity, date_f, date_t, file_prefix, api: OandaApi):\n    time_step = INCREMENTS[granularity]\n    end_date = parser.parse(date_t)\n    from_date = parser.parse(date_f)\n    candles_dfs = []\n    to_date = from_date\n    while to_date < end_date:\n        to_date = from_date + dt.timedelta(minutes=time_step)\n        if to_date > end_date:\n            to_date = end_date",
+        "detail": "instrumentCollection.collect_data",
+        "documentation": {}
+    },
+    {
+        "label": "run_collection",
+        "kind": 2,
+        "importPath": "instrumentCollection.collect_data",
+        "description": "instrumentCollection.collect_data",
+        "peekOfCode": "def run_collection(ic: InstrumentCollection, api: OandaApi):\n    our_curr = [\"USD\",\"JPY\",\"EUR\",\"GBP\"]\n    for p1 in our_curr:\n        for p2 in our_curr:\n            pair = f\"{p1}_{p2}\"\n            if pair in ic.instruments_dict.keys():\n                for granularity in [\"M5\",\"H1\", \"H4\"]:\n                    print(pair, granularity)\n                    collect_data(\n                        pair,",
+        "detail": "instrumentCollection.collect_data",
+        "documentation": {}
+    },
+    {
+        "label": "CANDLE_COUNT",
+        "kind": 5,
+        "importPath": "instrumentCollection.collect_data",
+        "description": "instrumentCollection.collect_data",
+        "peekOfCode": "CANDLE_COUNT = 3000\nINCREMENTS = {\n    'M5' : 5 * CANDLE_COUNT,\n    'H1' : 60 * CANDLE_COUNT,\n    'H4' : 240 * CANDLE_COUNT,\n}\ndef save_file(final_df: pd.DataFrame, file_prefix, granularity, pair):\n    filename = f\"{file_prefix}{pair}_{granularity}.pkl\"\n    final_df.drop_duplicates(subset=['time'], inplace=True)\n    final_df.sort_values(by='time', inplace=True)",
+        "detail": "instrumentCollection.collect_data",
+        "documentation": {}
+    },
+    {
+        "label": "INCREMENTS",
+        "kind": 5,
+        "importPath": "instrumentCollection.collect_data",
+        "description": "instrumentCollection.collect_data",
+        "peekOfCode": "INCREMENTS = {\n    'M5' : 5 * CANDLE_COUNT,\n    'H1' : 60 * CANDLE_COUNT,\n    'H4' : 240 * CANDLE_COUNT,\n}\ndef save_file(final_df: pd.DataFrame, file_prefix, granularity, pair):\n    filename = f\"{file_prefix}{pair}_{granularity}.pkl\"\n    final_df.drop_duplicates(subset=['time'], inplace=True)\n    final_df.sort_values(by='time', inplace=True)\n    final_df.reset_index(drop=True, inplace=True)",
+        "detail": "instrumentCollection.collect_data",
+        "documentation": {}
+    },
+    {
+        "label": "InstrumentCollection",
+        "kind": 6,
+        "importPath": "instrumentCollection.instrument_collection",
+        "description": "instrumentCollection.instrument_collection",
+        "peekOfCode": "class InstrumentCollection:\n    FILENAME = \"instruments.json\"\n    API_KEYS = ['name', 'type', 'displayName', 'pipLocation', 'displayPrecision', 'tradeUnitsPrecision','marginRate']\n    def __init__ (self):\n        self.instruments_dict = {}\n    def LoadInstruments(self, path):\n        self.instruments_dict = {}\n        fileName = f\"{path}/{self.FILENAME}\"\n        with open(fileName, \"r\") as f:\n            data = json.loads(f.read())",
+        "detail": "instrumentCollection.instrument_collection",
+        "documentation": {}
+    },
+    {
+        "label": "instrumentCollection",
+        "kind": 5,
+        "importPath": "instrumentCollection.instrument_collection",
+        "description": "instrumentCollection.instrument_collection",
+        "peekOfCode": "instrumentCollection = InstrumentCollection()",
+        "detail": "instrumentCollection.instrument_collection",
+        "documentation": {}
+    },
+    {
+        "label": "LogWrapper",
+        "kind": 6,
+        "importPath": "instrumentCollection.log_wrapper",
+        "description": "instrumentCollection.log_wrapper",
+        "peekOfCode": "class LogWrapper:\n    PATH = './logs'\n    def __init__(self, name, mode=\"w\"):\n        self.create_directory()\n        self.filename = f\"{LogWrapper.PATH}/{name}.log\"\n        self.logger = logging.getLogger(name)\n        self.logger.setLevel(DEFAULT_LEVEL)\n        file_handler = logging.FileHandler(self.filename, mode=mode)\n        formatter = logging.Formatter(LOG_FORMAT, datefmt='%Y-%m-%d %H:%M:%S')\n        file_handler.setFormatter(formatter)",
+        "detail": "instrumentCollection.log_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_FORMAT",
+        "kind": 5,
+        "importPath": "instrumentCollection.log_wrapper",
+        "description": "instrumentCollection.log_wrapper",
+        "peekOfCode": "LOG_FORMAT = \"%(asctime)s %(message)s\"\nDEFAULT_LEVEL = logging.DEBUG\nclass LogWrapper:\n    PATH = './logs'\n    def __init__(self, name, mode=\"w\"):\n        self.create_directory()\n        self.filename = f\"{LogWrapper.PATH}/{name}.log\"\n        self.logger = logging.getLogger(name)\n        self.logger.setLevel(DEFAULT_LEVEL)\n        file_handler = logging.FileHandler(self.filename, mode=mode)",
+        "detail": "instrumentCollection.log_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_LEVEL",
+        "kind": 5,
+        "importPath": "instrumentCollection.log_wrapper",
+        "description": "instrumentCollection.log_wrapper",
+        "peekOfCode": "DEFAULT_LEVEL = logging.DEBUG\nclass LogWrapper:\n    PATH = './logs'\n    def __init__(self, name, mode=\"w\"):\n        self.create_directory()\n        self.filename = f\"{LogWrapper.PATH}/{name}.log\"\n        self.logger = logging.getLogger(name)\n        self.logger.setLevel(DEFAULT_LEVEL)\n        file_handler = logging.FileHandler(self.filename, mode=mode)\n        formatter = logging.Formatter(LOG_FORMAT, datefmt='%Y-%m-%d %H:%M:%S')",
+        "detail": "instrumentCollection.log_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "CandleTiming",
+        "kind": 6,
+        "importPath": "models.candle_timing",
+        "description": "models.candle_timing",
+        "peekOfCode": "class CandleTiming:\n    def __init__(self, last_time):\n        self.last_time = last_time\n        self.is_ready = False\n    def __repr__(self) -> str:\n        return f\"last_candle:{dt.datetime.strftime(self.last_time, '%y-%m-%d %H:%M')} is ready:{self.is_ready}\"",
+        "detail": "models.candle_timing",
+        "documentation": {}
+    },
+    {
+        "label": "Instrument",
+        "kind": 6,
+        "importPath": "models.instrument",
+        "description": "models.instrument",
+        "peekOfCode": "class Instrument:\n    def __init__(self, name, ins_type, displayName, pipLocation, tradeUnitsPrecision, marginRate, displayPrecision):\n        self.name = name\n        self.ins_type = ins_type\n        self.displayName = displayName\n        self.pipLocation = pow(10, pipLocation)\n        self.tradeUnitsPrecision = tradeUnitsPrecision\n        self.marginRate = float(marginRate)\n        self.displayPrecision = displayPrecision\n    def __repr__(self):",
+        "detail": "models.instrument",
+        "documentation": {}
+    },
+    {
+        "label": "OpenTrade",
+        "kind": 6,
+        "importPath": "models.open_trade",
+        "description": "models.open_trade",
+        "peekOfCode": "class OpenTrade: \n    def __init__(self, api_ob):\n        self.id = api_ob['id']\n        self.instrument = api_ob['instrument']\n        self.price = float(api_ob['price'])\n        self.currentUnits = float(api_ob['currentUnits'])\n        self.unrealizedPL = float(api_ob['unrealizedPL'])\n        self.marginUsed = float(api_ob['marginUsed'])\n    def __repr__(self):\n        return str(vars(self))",
+        "detail": "models.open_trade",
+        "documentation": {}
+    },
+    {
+        "label": "TradeSettings",
+        "kind": 6,
+        "importPath": "models.trade_settings",
+        "description": "models.trade_settings",
+        "peekOfCode": "class TradeSettings:\n    def __init__(self, ob, pair):\n        self.n_ma = ob['n_ma']\n        self.n_std = ob['n_std']\n        self.maxspread = ob['maxspread']\n        self.mingain = ob['mingain']\n        self.riskreward = ob['riskreward']\n    def __repr__(self):\n        return str(vars(self))\n    @classmethod",
+        "detail": "models.trade_settings",
+        "documentation": {}
+    },
+    {
+        "label": "apply_signal",
+        "kind": 2,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "def apply_signal(row):\n    if row.direction == BUY and row.mid_l > row.EMA:\n        return BUY\n    if row.direction == SELL and row.mid_h < row.EMA:\n        return SELL\n    return NONE   \ndef apply_cross(row):\n    if row.macd_delta > 0  and row.macd_delta_prev < 0:\n        return BUY\n    if row.macd_delta < 0  and row.macd_delta_prev > 0:",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "apply_cross",
+        "kind": 2,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "def apply_cross(row):\n    if row.macd_delta > 0  and row.macd_delta_prev < 0:\n        return BUY\n    if row.macd_delta < 0  and row.macd_delta_prev > 0:\n        return SELL\n    return NONE  \ndef prepare_data(df: pd.DataFrame, slow, fast, signal, ema):\n    df_an = df.copy()\n    df_an = MACD(df_an, n_slow=slow, n_fast=fast, n_signal=signal)\n    df_an['macd_delta'] = df_an.MACD - df_an.SIGNAL",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_data",
+        "kind": 2,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "def prepare_data(df: pd.DataFrame, slow, fast, signal, ema):\n    df_an = df.copy()\n    df_an = MACD(df_an, n_slow=slow, n_fast=fast, n_signal=signal)\n    df_an['macd_delta'] = df_an.MACD - df_an.SIGNAL\n    df_an['macd_delta_prev'] = df_an.macd_delta.shift(1)\n    df_an['direction'] = df_an.apply(apply_cross, axis=1)\n    df_an['EMA'] = df_an.mid_c.ewm(span=ema, min_periods=ema).mean()\n    df_an.dropna(inplace=True)\n    df_an.reset_index(drop=True, inplace=True)\n    return df_an",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "def load_data(pair, time_d=1):\n    start = parser.parse(\"2020-10-01T00:00:00Z\")\n    end = parser.parse(\"2021-01-01T00:00:00Z\")\n    df = pd.read_pickle(f\"./data/{pair}_H{time_d}.pkl\")\n    df_m5 = pd.read_pickle(f\"./data/{pair}_M5.pkl\")\n    df = df[(df.time>=start)&(df.time<end)]\n    df_m5 = df_m5[(df_m5.time>=start)&(df_m5.time<end)]\n    df.reset_index(drop=True, inplace=True)\n    df_m5.reset_index(drop=True, inplace=True)\n    return df, df_m5",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "simulate_params",
+        "kind": 2,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "def simulate_params(pair, df, df_m5,  slow, fast, signal, ema, time_d):\n    prepped_df = prepare_data(df, slow, fast, signal, ema)\n    gt = GuruTester(\n        prepped_df,\n        apply_signal,\n        df_m5,\n        use_spread=True,\n        time_d=time_d\n    )\n    gt.run_test()",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "run_pair",
+        "kind": 2,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "def run_pair(pair):\n    time_d = 4\n    df, df_m5 = load_data(pair, time_d=time_d)\n    results = []\n    trades = []\n    print(\"\\n--> Running\", pair)\n    for slow in [26,52]:\n        for fast in [12,18]:\n            if slow <= fast:\n                continue",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "run_ema_macd",
+        "kind": 2,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "def run_ema_macd(ic: InstrumentCollection):\n    results = []\n    our_curr = ['USD', 'GBP', 'JPY','EUR']\n    for p1 in our_curr:\n        for p2 in our_curr:\n            pair = f\"{p1}_{p2}\"\n            if pair in ic.instruments_dict.keys():\n                results = run_pair(pair)\n                results.to_pickle(f\"./exploration/macd_ema/macd_ema_res_{pair}.pkl\")",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "BUY",
+        "kind": 5,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "BUY = 1\nSELL = -1\nNONE = 0\ndef apply_signal(row):\n    if row.direction == BUY and row.mid_l > row.EMA:\n        return BUY\n    if row.direction == SELL and row.mid_h < row.EMA:\n        return SELL\n    return NONE   \ndef apply_cross(row):",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "SELL",
+        "kind": 5,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "SELL = -1\nNONE = 0\ndef apply_signal(row):\n    if row.direction == BUY and row.mid_l > row.EMA:\n        return BUY\n    if row.direction == SELL and row.mid_h < row.EMA:\n        return SELL\n    return NONE   \ndef apply_cross(row):\n    if row.macd_delta > 0  and row.macd_delta_prev < 0:",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "NONE",
+        "kind": 5,
+        "importPath": "simulation.ema_macd",
+        "description": "simulation.ema_macd",
+        "peekOfCode": "NONE = 0\ndef apply_signal(row):\n    if row.direction == BUY and row.mid_l > row.EMA:\n        return BUY\n    if row.direction == SELL and row.mid_h < row.EMA:\n        return SELL\n    return NONE   \ndef apply_cross(row):\n    if row.macd_delta > 0  and row.macd_delta_prev < 0:\n        return BUY",
+        "detail": "simulation.ema_macd",
+        "documentation": {}
+    },
+    {
+        "label": "apply_signal",
+        "kind": 2,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "def apply_signal(row):\n    if row.direction == BUY and row.mid_l > row.EMA:\n        return BUY\n    if row.direction == SELL and row.mid_h < row.EMA:\n        return SELL\n    return NONE   \ndef apply_cross(row):\n    if row.macd_delta > 0  and row.macd_delta_prev < 0:\n        return BUY\n    if row.macd_delta < 0  and row.macd_delta_prev > 0:",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "apply_cross",
+        "kind": 2,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "def apply_cross(row):\n    if row.macd_delta > 0  and row.macd_delta_prev < 0:\n        return BUY\n    if row.macd_delta < 0  and row.macd_delta_prev > 0:\n        return SELL\n    return NONE  \ndef prepare_data(df: pd.DataFrame, slow, fast, signal, ema):\n    df_an = df.copy()\n    df_an = MACD(df_an, n_slow=slow, n_fast=fast, n_signal=signal)\n    df_an['macd_delta'] = df_an.MACD - df_an.SIGNAL",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_data",
+        "kind": 2,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "def prepare_data(df: pd.DataFrame, slow, fast, signal, ema):\n    df_an = df.copy()\n    df_an = MACD(df_an, n_slow=slow, n_fast=fast, n_signal=signal)\n    df_an['macd_delta'] = df_an.MACD - df_an.SIGNAL\n    df_an['macd_delta_prev'] = df_an.macd_delta.shift(1)\n    df_an['direction'] = df_an.apply(apply_cross, axis=1)\n    df_an['EMA'] = df_an.mid_c.ewm(span=ema, min_periods=ema).mean()\n    df_an.dropna(inplace=True)\n    df_an.reset_index(drop=True, inplace=True)\n    return df_an",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "def load_data(pair, time_d=1):\n    start = parser.parse(\"2020-10-01T00:00:00Z\")\n    end = parser.parse(\"2021-01-01T00:00:00Z\")\n    df = pd.read_pickle(f\"./data/{pair}_H{time_d}.pkl\")\n    df_m5 = pd.read_pickle(f\"./data/{pair}_M5.pkl\")\n    df = df[(df.time>=start)&(df.time<end)]\n    df_m5 = df_m5[(df_m5.time>=start)&(df_m5.time<end)]\n    df.reset_index(drop=True, inplace=True)\n    df_m5.reset_index(drop=True, inplace=True)\n    return df, df_m5",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "simulate_params",
+        "kind": 2,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "def simulate_params(pair, df, df_m5,  slow, fast, signal, ema, time_d):\n    prepped_df = prepare_data(df, slow, fast, signal, ema)\n    gt = GuruTester(\n        prepped_df,\n        apply_signal,\n        df_m5,\n        use_spread=True,\n        time_d=time_d\n    )\n    gt.run_test()",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "run_pair",
+        "kind": 2,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "def run_pair(pair):\n    time_d = 4\n    df, df_m5 = load_data(pair, time_d=time_d)\n    results = []\n    trades = []\n    print(\"\\n--> Running\", pair)\n    for slow in [26,52]:\n        for fast in [12,18]:\n            if slow <= fast:\n                continue",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "run_process",
+        "kind": 2,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "def run_process(pair):\n    print(\"PROCESS\", pair, \"STARTED\")\n    results = run_pair(pair)\n    results.to_pickle(f\"./exploration/macd_ema/macd_ema_res_{pair}.pkl\")\n    print(\"PROCESS\", pair, \"ENDED\")\ndef get_sim_pairs(l_curr, ic: InstrumentCollection):\n    pairs = []\n    for p1 in l_curr:\n        for p2 in l_curr:\n            pair = f\"{p1}_{p2}\"",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "get_sim_pairs",
+        "kind": 2,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "def get_sim_pairs(l_curr, ic: InstrumentCollection):\n    pairs = []\n    for p1 in l_curr:\n        for p2 in l_curr:\n            pair = f\"{p1}_{p2}\"\n            if pair in ic.instruments_dict.keys():\n                pairs.append(pair)\n    return pairs\ndef run_ema_macd(ic: InstrumentCollection):\n    pairs = get_sim_pairs(['USD', 'GBP', 'JPY', 'EUR'], ic)",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "run_ema_macd",
+        "kind": 2,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "def run_ema_macd(ic: InstrumentCollection):\n    pairs = get_sim_pairs(['USD', 'GBP', 'JPY', 'EUR'], ic)\n    limit = 4\n    current = 0\n    while current < len(pairs):\n        processes = []\n        todo = len(pairs) - current\n        if todo < limit:\n            limit = todo\n        for _ in range(limit):",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "BUY",
+        "kind": 5,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "BUY = 1\nSELL = -1\nNONE = 0\ndef apply_signal(row):\n    if row.direction == BUY and row.mid_l > row.EMA:\n        return BUY\n    if row.direction == SELL and row.mid_h < row.EMA:\n        return SELL\n    return NONE   \ndef apply_cross(row):",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "SELL",
+        "kind": 5,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "SELL = -1\nNONE = 0\ndef apply_signal(row):\n    if row.direction == BUY and row.mid_l > row.EMA:\n        return BUY\n    if row.direction == SELL and row.mid_h < row.EMA:\n        return SELL\n    return NONE   \ndef apply_cross(row):\n    if row.macd_delta > 0  and row.macd_delta_prev < 0:",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "NONE",
+        "kind": 5,
+        "importPath": "simulation.ema_macd_mp",
+        "description": "simulation.ema_macd_mp",
+        "peekOfCode": "NONE = 0\ndef apply_signal(row):\n    if row.direction == BUY and row.mid_l > row.EMA:\n        return BUY\n    if row.direction == SELL and row.mid_h < row.EMA:\n        return SELL\n    return NONE   \ndef apply_cross(row):\n    if row.macd_delta > 0  and row.macd_delta_prev < 0:\n        return BUY",
+        "detail": "simulation.ema_macd_mp",
+        "documentation": {}
+    },
+    {
+        "label": "Trade",
+        "kind": 6,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "class Trade:\n    def __init__(self, row, profit_factor, loss_factor):\n        self.running = True\n        self.start_index_m5 = row.name\n        self.profit_factor = profit_factor\n        self.loss_factor = loss_factor\n        if row.SIGNAL == BUY:\n            self.start_price = row.start_price_BUY\n            self.trigger_price = row.start_price_BUY\n        if row.SIGNAL == SELL:",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "GuruTester",
+        "kind": 6,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "class GuruTester:\n    def __init__(self, df_big,\n                    apply_signal, \n                    df_m5,\n                    use_spread=True,\n                    LOSS_FACTOR = -1.0,\n                    PROFIT_FACTOR = 1.5,\n                    time_d=1 ):\n        self.df_big = df_big.copy()\n        self.use_spread = use_spread",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "apply_take_profit",
+        "kind": 2,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "def apply_take_profit(row, PROFIT_FACTOR):\n    if row.SIGNAL != NONE:\n        if row.SIGNAL == BUY:\n            return (row.ask_c - row.ask_o) * PROFIT_FACTOR + row.ask_c\n        else:\n            return (row.bid_c - row.bid_o) * PROFIT_FACTOR + row.bid_c\n    else:\n        return 0.0\ndef apply_stop_loss(row):\n    if row.SIGNAL != NONE:",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "apply_stop_loss",
+        "kind": 2,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "def apply_stop_loss(row):\n    if row.SIGNAL != NONE:\n        if row.SIGNAL == BUY:\n            return row.ask_o\n        else:\n            return row.bid_o\n    else:\n        return 0.0\ndef remove_spread(df):\n    for a in [\"ask\", \"bid\"]:",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "remove_spread",
+        "kind": 2,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "def remove_spread(df):\n    for a in [\"ask\", \"bid\"]:\n        for b in [\"o\", \"h\", \"l\", \"c\"]:\n            c = f\"{a}_{b}\"\n            df[c] = df[f\"mid_{b}\"]\ndef apply_signals(df, PROFIT_FACTOR, sig):\n    df[\"SIGNAL\"] = df.apply(sig, axis=1)\n    df[\"TP\"] = df.apply(apply_take_profit, axis=1, PROFIT_FACTOR=PROFIT_FACTOR)\n    df[\"SL\"] = df.apply(apply_stop_loss, axis=1)\ndef create_signals(df, time_d=1):",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "apply_signals",
+        "kind": 2,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "def apply_signals(df, PROFIT_FACTOR, sig):\n    df[\"SIGNAL\"] = df.apply(sig, axis=1)\n    df[\"TP\"] = df.apply(apply_take_profit, axis=1, PROFIT_FACTOR=PROFIT_FACTOR)\n    df[\"SL\"] = df.apply(apply_stop_loss, axis=1)\ndef create_signals(df, time_d=1):\n    df_signals = df[df.SIGNAL != NONE].copy() \n    df_signals['m5_start'] = [x + dt.timedelta(hours=time_d) for x in df_signals.time]\n    df_signals.drop(['time', 'mid_o', 'mid_h', 'mid_l', 'bid_o', 'bid_h', 'bid_l',\n    'ask_o', 'ask_h', 'ask_l', 'direction'], axis=1, inplace=True)\n    df_signals.rename(columns={",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "create_signals",
+        "kind": 2,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "def create_signals(df, time_d=1):\n    df_signals = df[df.SIGNAL != NONE].copy() \n    df_signals['m5_start'] = [x + dt.timedelta(hours=time_d) for x in df_signals.time]\n    df_signals.drop(['time', 'mid_o', 'mid_h', 'mid_l', 'bid_o', 'bid_h', 'bid_l',\n    'ask_o', 'ask_h', 'ask_l', 'direction'], axis=1, inplace=True)\n    df_signals.rename(columns={\n        'bid_c' : 'start_price_BUY',\n        'ask_c' : 'start_price_SELL',\n        'm5_start' : 'time'\n    }, inplace=True)",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "BUY",
+        "kind": 5,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "BUY = 1\nSELL = -1\nNONE = 0\ndef apply_take_profit(row, PROFIT_FACTOR):\n    if row.SIGNAL != NONE:\n        if row.SIGNAL == BUY:\n            return (row.ask_c - row.ask_o) * PROFIT_FACTOR + row.ask_c\n        else:\n            return (row.bid_c - row.bid_o) * PROFIT_FACTOR + row.bid_c\n    else:",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "SELL",
+        "kind": 5,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "SELL = -1\nNONE = 0\ndef apply_take_profit(row, PROFIT_FACTOR):\n    if row.SIGNAL != NONE:\n        if row.SIGNAL == BUY:\n            return (row.ask_c - row.ask_o) * PROFIT_FACTOR + row.ask_c\n        else:\n            return (row.bid_c - row.bid_o) * PROFIT_FACTOR + row.bid_c\n    else:\n        return 0.0",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "NONE",
+        "kind": 5,
+        "importPath": "simulation.guru_tester",
+        "description": "simulation.guru_tester",
+        "peekOfCode": "NONE = 0\ndef apply_take_profit(row, PROFIT_FACTOR):\n    if row.SIGNAL != NONE:\n        if row.SIGNAL == BUY:\n            return (row.ask_c - row.ask_o) * PROFIT_FACTOR + row.ask_c\n        else:\n            return (row.bid_c - row.bid_o) * PROFIT_FACTOR + row.bid_c\n    else:\n        return 0.0\ndef apply_stop_loss(row):",
+        "detail": "simulation.guru_tester",
+        "documentation": {}
+    },
+    {
+        "label": "MAResult",
+        "kind": 6,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "class MAResult:\n    def __init__(self, df_trades, pairname, ma_l, ma_s, granularity):\n        self.pairname = pairname\n        self.df_trades = df_trades\n        self.ma_s = ma_s\n        self.ma_l = ma_l\n        self.granularity = granularity\n        self.result = self.result_ob()\n    def __repr__(self):\n        return str(self.result)",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "is_trade",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def is_trade(row):\n    if row.DELTA >= 0 and row.DELTA_PREV < 0:\n        return BUY\n    if row.DELTA < 0 and row.DELTA_PREV >= 0:\n        return SELL\n    return NONE\ndef load_price_data(pair, granularity, ma_list):\n    df = pd.read_pickle(f\"./data/{pair}_{granularity}.pkl\")\n    for ma in ma_list:\n        df[get_ma_col(ma)] = df.mid_c.rolling(window=ma).mean()",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "load_price_data",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def load_price_data(pair, granularity, ma_list):\n    df = pd.read_pickle(f\"./data/{pair}_{granularity}.pkl\")\n    for ma in ma_list:\n        df[get_ma_col(ma)] = df.mid_c.rolling(window=ma).mean()\n    df.dropna(inplace=True)\n    df.reset_index(drop=True, inplace=True)\n    return df\ndef get_trades(df_analysis, instrument, granularity):\n    df_trades = df_analysis[df_analysis.TRADE != NONE].copy()\n    df_trades[\"DIFF\"] = df_trades.mid_c.diff().shift(-1)",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "get_trades",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def get_trades(df_analysis, instrument, granularity):\n    df_trades = df_analysis[df_analysis.TRADE != NONE].copy()\n    df_trades[\"DIFF\"] = df_trades.mid_c.diff().shift(-1)\n    df_trades.fillna(0, inplace=True)\n    df_trades[\"GAIN\"] = df_trades.DIFF / instrument.pipLocation\n    df_trades[\"GAIN\"] = df_trades[\"GAIN\"] / df_trades[\"TRADE\"]\n    df_trades[\"granularity\"] = granularity\n    df_trades[\"pair\"] = instrument.name\n    df_trades[\"GAIN_C\"] =  df_trades[\"GAIN\"].cumsum()\n    return df_trades",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "assess_pair",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def assess_pair(price_data, ma_l, ma_s, instrument, granularity):\n    df_analysis = price_data.copy()\n    df_analysis[\"DELTA\"] = df_analysis[ma_s] - df_analysis[ma_l]\n    df_analysis[\"DELTA_PREV\"] = df_analysis[\"DELTA\"].shift(1)\n    df_analysis[\"TRADE\"] = df_analysis.apply(is_trade, axis=1)\n    df_trades = get_trades(df_analysis, instrument, granularity)\n    df_trades[\"ma_l\"] = ma_l\n    df_trades[\"ma_s\"] = ma_s\n    df_trades[\"cross\"] = df_trades.apply(add_cross, axis=1)\n    return MAResult(",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "append_df_to_file",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def append_df_to_file(df, filename):\n    if os.path.isfile(filename):\n        fd = pd.read_pickle(filename)\n        df = pd.concat([fd, df])\n    df.reset_index(inplace=True, drop=True)\n    df.to_pickle(filename)\n    print(filename, df.shape)\n    print(df.tail(2))\ndef get_fullname(filepath, filename):\n    return f\"{filepath}/{filename}.pkl\"",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "get_fullname",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def get_fullname(filepath, filename):\n    return f\"{filepath}/{filename}.pkl\"\ndef process_macro(results_list, filename):\n    rl = [x.result for x in results_list]\n    df = pd.DataFrame.from_dict(rl) # type: ignore \n    append_df_to_file(df, filename)\ndef process_trades(results_list, filename):\n    df = pd.concat([x.df_trades for x in results_list])\n    append_df_to_file(df, filename)\ndef process_result(results_list, filepath, date=date):",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "process_macro",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def process_macro(results_list, filename):\n    rl = [x.result for x in results_list]\n    df = pd.DataFrame.from_dict(rl) # type: ignore \n    append_df_to_file(df, filename)\ndef process_trades(results_list, filename):\n    df = pd.concat([x.df_trades for x in results_list])\n    append_df_to_file(df, filename)\ndef process_result(results_list, filepath, date=date):\n    date = date.today()\n    process_macro(results_list, get_fullname(filepath, f\"ma_result_{date}\"))",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "process_trades",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def process_trades(results_list, filename):\n    df = pd.concat([x.df_trades for x in results_list])\n    append_df_to_file(df, filename)\ndef process_result(results_list, filepath, date=date):\n    date = date.today()\n    process_macro(results_list, get_fullname(filepath, f\"ma_result_{date}\"))\n    process_trades(results_list, get_fullname(filepath, f\"ma_trades_{date}\"))\n    #print(results_list[0].df_trades.head(2))\n    # rl = {i: x.result for i, x in enumerate(results_list)}\n    # df = pd.DataFrame.from_dict(rl)",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "process_result",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def process_result(results_list, filepath, date=date):\n    date = date.today()\n    process_macro(results_list, get_fullname(filepath, f\"ma_result_{date}\"))\n    process_trades(results_list, get_fullname(filepath, f\"ma_trades_{date}\"))\n    #print(results_list[0].df_trades.head(2))\n    # rl = {i: x.result for i, x in enumerate(results_list)}\n    # df = pd.DataFrame.from_dict(rl)\n    # print(df)\ndef analyze_pair(instrument, granularity, ma_long, ma_short, filepath):\n    ma_list = set(ma_long + ma_short)",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_pair",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def analyze_pair(instrument, granularity, ma_long, ma_short, filepath):\n    ma_list = set(ma_long + ma_short)\n    pair = instrument.name\n    price_data = load_price_data(pair, granularity, ma_list)\n    # print(pair)\n    # print(price_data.head(3))\n    result_list = []\n    for ma_l in ma_long:\n        for ma_s in ma_short:\n            if ma_l <= ma_s:",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "run_ma_sum",
+        "kind": 2,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "def run_ma_sum(curr_list=[\"EUR\", \"USD\", \"JPY\", \"GBP\"],\n               granularity=[\"H1\"],\n               ma_long=[20,40],\n               ma_short=[10],\n               filepath=\"./data\"):\n    ic.LoadInstruments(\"./data\")\n    for g in granularity:\n        for p1 in curr_list:\n            for p2 in curr_list:\n                pair = f\"{p1}_{p2}\"",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "BUY",
+        "kind": 5,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "BUY = 1\nSELL = -1\nNONE = 0\nget_ma_col = lambda x: f\"MA_{x}\"\nadd_cross = lambda x: f\"{x.ma_s}_{x.ma_l}\"\ndef is_trade(row):\n    if row.DELTA >= 0 and row.DELTA_PREV < 0:\n        return BUY\n    if row.DELTA < 0 and row.DELTA_PREV >= 0:\n        return SELL",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "SELL",
+        "kind": 5,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "SELL = -1\nNONE = 0\nget_ma_col = lambda x: f\"MA_{x}\"\nadd_cross = lambda x: f\"{x.ma_s}_{x.ma_l}\"\ndef is_trade(row):\n    if row.DELTA >= 0 and row.DELTA_PREV < 0:\n        return BUY\n    if row.DELTA < 0 and row.DELTA_PREV >= 0:\n        return SELL\n    return NONE",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "NONE",
+        "kind": 5,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "NONE = 0\nget_ma_col = lambda x: f\"MA_{x}\"\nadd_cross = lambda x: f\"{x.ma_s}_{x.ma_l}\"\ndef is_trade(row):\n    if row.DELTA >= 0 and row.DELTA_PREV < 0:\n        return BUY\n    if row.DELTA < 0 and row.DELTA_PREV >= 0:\n        return SELL\n    return NONE\ndef load_price_data(pair, granularity, ma_list):",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "get_ma_col",
+        "kind": 5,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "get_ma_col = lambda x: f\"MA_{x}\"\nadd_cross = lambda x: f\"{x.ma_s}_{x.ma_l}\"\ndef is_trade(row):\n    if row.DELTA >= 0 and row.DELTA_PREV < 0:\n        return BUY\n    if row.DELTA < 0 and row.DELTA_PREV >= 0:\n        return SELL\n    return NONE\ndef load_price_data(pair, granularity, ma_list):\n    df = pd.read_pickle(f\"./data/{pair}_{granularity}.pkl\")",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "add_cross",
+        "kind": 5,
+        "importPath": "simulation.ma_cross",
+        "description": "simulation.ma_cross",
+        "peekOfCode": "add_cross = lambda x: f\"{x.ma_s}_{x.ma_l}\"\ndef is_trade(row):\n    if row.DELTA >= 0 and row.DELTA_PREV < 0:\n        return BUY\n    if row.DELTA < 0 and row.DELTA_PREV >= 0:\n        return SELL\n    return NONE\ndef load_price_data(pair, granularity, ma_list):\n    df = pd.read_pickle(f\"./data/{pair}_{granularity}.pkl\")\n    for ma in ma_list:",
+        "detail": "simulation.ma_cross",
+        "documentation": {}
+    },
+    {
+        "label": "set_widths",
+        "kind": 2,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "def set_widths(pair, writer):\n    worksheet = writer.sheets[pair]\n    for k,v in WIDTHS.items():\n        worksheet.set_column(k, v)\ndef get_line_chart(book, start_row, end_row, labels_col, data_col, title, sheetname):\n    chart = book.add_chart({'type' : 'line'})\n    chart.add_series({\n        'categories' : [sheetname, start_row, labels_col, end_row, labels_col],\n        'values' : [sheetname, start_row, data_col, end_row, data_col],\n        'line' : {'color' : 'blue'}",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "get_line_chart",
+        "kind": 2,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "def get_line_chart(book, start_row, end_row, labels_col, data_col, title, sheetname):\n    chart = book.add_chart({'type' : 'line'})\n    chart.add_series({\n        'categories' : [sheetname, start_row, labels_col, end_row, labels_col],\n        'values' : [sheetname, start_row, data_col, end_row, data_col],\n        'line' : {'color' : 'blue'}\n    })\n    chart.set_title({'name' : title})\n    chart.set_legend({'none' : True})\n    return chart",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "add_chart",
+        "kind": 2,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "def add_chart(pair, cross, df, writer):\n    workbook = writer.book\n    worksheet = writer.sheets[pair]\n    chart = get_line_chart(workbook, 1, df.shape[0], 11, 12, \n                           f\"Total Gain for {pair} on {cross}\", pair )\n    chart.set_size({'x_scale' : 2.5, 'y_scale' : 2.5})\n    worksheet.insert_chart('O1', chart)\ndef add_pair_charts(df_ma_res, df_ma_trades, writer):\n    cols = ['time', 'GAIN_C']\n    df_temp = df_ma_res.drop_duplicates(subset=\"pair\")",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "add_pair_charts",
+        "kind": 2,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "def add_pair_charts(df_ma_res, df_ma_trades, writer):\n    cols = ['time', 'GAIN_C']\n    df_temp = df_ma_res.drop_duplicates(subset=\"pair\")\n    for _, row in df_temp.iterrows():\n        dft = df_ma_trades[(df_ma_trades.cross == row.cross)&\n                            (df_ma_trades.pair == row.pair)]\n        dft[cols].to_excel(writer, sheet_name=row.pair, index=False, startrow=0, startcol=11 )\n        set_widths(row.pair, writer)\n        add_chart(row.pair, row.cross, dft, writer)\ndef add_pair_sheets(df_ma_res, writer):",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "add_pair_sheets",
+        "kind": 2,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "def add_pair_sheets(df_ma_res, writer):\n    for p in df_ma_res.pair.unique():\n        tdf = df_ma_res[df_ma_res.pair == p]\n        tdf.to_excel(writer, sheet_name=p, index=False)\ndef prepare_data(df_ma_res, df_ma_trades):\n    df_ma_res.sort_values(\n        by=['pair', 'total_gain'], \n        ascending=[True, False],\n        inplace=True)\n    df_ma_trades['time'] = [ x.replace(tzinfo=None) for x in df_ma_trades['time']]",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_data",
+        "kind": 2,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "def prepare_data(df_ma_res, df_ma_trades):\n    df_ma_res.sort_values(\n        by=['pair', 'total_gain'], \n        ascending=[True, False],\n        inplace=True)\n    df_ma_trades['time'] = [ x.replace(tzinfo=None) for x in df_ma_trades['time']]\ndef process_data(df_ma_res, df_ma_trades, writer):\n    prepare_data(df_ma_res, df_ma_trades)\n    add_pair_sheets(df_ma_res, writer)\n    add_pair_charts(df_ma_res, df_ma_trades, writer)",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "process_data",
+        "kind": 2,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "def process_data(df_ma_res, df_ma_trades, writer):\n    prepare_data(df_ma_res, df_ma_trades)\n    add_pair_sheets(df_ma_res, writer)\n    add_pair_charts(df_ma_res, df_ma_trades, writer)\ndef create_excel(df_ma_res, df_ma_trades, granularity):\n    filename = f\"ma_sim_{granularity}.xlsx\"\n    writer = pd.ExcelWriter(filename,  engine=\"xlsxwriter\")  # type: ignore\n    process_data(\n        df_ma_res[df_ma_res.granularity == granularity].copy(), \n        df_ma_trades[df_ma_trades.granularity == granularity].copy(), ",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "create_excel",
+        "kind": 2,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "def create_excel(df_ma_res, df_ma_trades, granularity):\n    filename = f\"ma_sim_{granularity}.xlsx\"\n    writer = pd.ExcelWriter(filename,  engine=\"xlsxwriter\")  # type: ignore\n    process_data(\n        df_ma_res[df_ma_res.granularity == granularity].copy(), \n        df_ma_trades[df_ma_trades.granularity == granularity].copy(), \n        writer)\n    writer.save()  # type: ignore\ndef create_ma_res(granularity, date=date):\n    date = date.today()",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "create_ma_res",
+        "kind": 2,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "def create_ma_res(granularity, date=date):\n    date = date.today()\n    df_ma_res = pd.read_pickle(f\"./data/ma_result_{date}.pkl\")\n    df_ma_trades = pd.read_pickle(f\"./data/ma_trades_{date}.pkl\")\n    create_excel(df_ma_res, df_ma_trades, granularity)\nif __name__ == \"__main__\":\n    date = date.today()\n    df_ma_res = pd.read_pickle(f\"./data/ma_result_{date}.pkl\")\n    df_ma_trades = pd.read_pickle(f\"./data/ma_trades_{date}.pkl\")\n    create_excel(df_ma_res, df_ma_trades, \"H1\")",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "WIDTHS",
+        "kind": 5,
+        "importPath": "simulation.ma_excel",
+        "description": "simulation.ma_excel",
+        "peekOfCode": "WIDTHS = {\n    'L:L' : 20,\n    'B:J' : 14.5\n}\ndef set_widths(pair, writer):\n    worksheet = writer.sheets[pair]\n    for k,v in WIDTHS.items():\n        worksheet.set_column(k, v)\ndef get_line_chart(book, start_row, end_row, labels_col, data_col, title, sheetname):\n    chart = book.add_chart({'type' : 'line'})",
+        "detail": "simulation.ma_excel",
+        "documentation": {}
+    },
+    {
+        "label": "BollingerBands",
+        "kind": 2,
+        "importPath": "technicals.indicators",
+        "description": "technicals.indicators",
+        "peekOfCode": "def BollingerBands(df: pd.DataFrame, n=20, s=\"2\"):\n    typical_p = (df.mid_c + df.mid_h  + df.mid_l) / 3\n    stddev = typical_p.rolling(window=n).std()\n    df['BB_MA'] = typical_p.rolling(window=n).mean()\n    df['BB_UP'] = df['BB_MA'] + stddev * float(s)\n    df['BB_LW'] = df['BB_MA'] - stddev * float(s)\n    return df\n# AVERAGE TRUE RANGE\ndef ATR(df: pd.DataFrame, n=14):\n    prev_c = df.mid_c.shift(1)",
+        "detail": "technicals.indicators",
+        "documentation": {}
+    },
+    {
+        "label": "ATR",
+        "kind": 2,
+        "importPath": "technicals.indicators",
+        "description": "technicals.indicators",
+        "peekOfCode": "def ATR(df: pd.DataFrame, n=14):\n    prev_c = df.mid_c.shift(1)\n    tr1 = df.mid_h - df.mid_l\n    tr2 = abs(df.mid_h - prev_c)\n    tr3 = abs(prev_c - df.mid_l)\n    tr = pd.DataFrame({'tr1': tr1, 'tr2': tr2, 'tr3': tr3}).max(axis=1)\n    df[f'ATR_{n}'] = tr.rolling(window=n).mean()\n    return df\ndef KeltnerChannels(df: pd.DataFrame, n_ema=20, n_atr=10):\n    df['EMA'] = df.mid_c.ewm(span=n_ema, min_periods=n_ema).mean()",
+        "detail": "technicals.indicators",
+        "documentation": {}
+    },
+    {
+        "label": "KeltnerChannels",
+        "kind": 2,
+        "importPath": "technicals.indicators",
+        "description": "technicals.indicators",
+        "peekOfCode": "def KeltnerChannels(df: pd.DataFrame, n_ema=20, n_atr=10):\n    df['EMA'] = df.mid_c.ewm(span=n_ema, min_periods=n_ema).mean()\n    df = ATR(df, n=n_atr)\n    c_atr = f\"ATR_{n_atr}\"\n    df['KeUP'] = df[c_atr] * 2 + df.EMA\n    df['KeLO'] = df.EMA - df[c_atr] * 2\n    df.drop(c_atr, axis=1, inplace=True)\n    return df\ndef RSI(df: pd.DataFrame, n=14):\n    alpha = 1.0 / n",
+        "detail": "technicals.indicators",
+        "documentation": {}
+    },
+    {
+        "label": "RSI",
+        "kind": 2,
+        "importPath": "technicals.indicators",
+        "description": "technicals.indicators",
+        "peekOfCode": "def RSI(df: pd.DataFrame, n=14):\n    alpha = 1.0 / n\n    gains = df.mid_c.diff()\n    wins = pd.Series([ x if x >= 0 else 0.0 for x in gains], name=\"wins\")\n    losses = pd.Series([ x * -1 if x < 0 else 0.0 for x in gains], name=\"losses\")\n    wins_rma = wins.ewm(min_periods=n,alpha=alpha).mean()    \n    losses_rma = losses.ewm(min_periods=n,alpha=alpha).mean()\n    rs = wins_rma /losses_rma\n    df[f\"RSI_{n}\"] = 100.0 - (100.0 / (1.0 + rs))\n    return df",
+        "detail": "technicals.indicators",
+        "documentation": {}
+    },
+    {
+        "label": "MACD",
+        "kind": 2,
+        "importPath": "technicals.indicators",
+        "description": "technicals.indicators",
+        "peekOfCode": "def MACD(df: pd.DataFrame, n_slow=26, n_fast=12, n_signal=9):\n    ema_long = df.mid_c.ewm(min_periods=n_slow, span=n_slow).mean()\n    ema_short = df.mid_c.ewm(min_periods=n_fast, span=n_fast).mean()\n    df['MACD'] =ema_short - ema_long\n    df['SIGNAL'] = df.MACD.ewm(min_periods=n_signal, span=n_signal).mean()\n    df['HIST'] = df.MACD - df.SIGNAL\n    return df",
+        "detail": "technicals.indicators",
+        "documentation": {}
+    },
+    {
+        "label": "apply_hanging_man",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def apply_hanging_man(row):\n    if row.body_bottom_perc > HANGING_MAN_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True\n    return False\ndef apply_shooting_star(row):\n    if row.body_top_perc < SHOOTING_STAR_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True\n    return False",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "apply_shooting_star",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def apply_shooting_star(row):\n    if row.body_top_perc < SHOOTING_STAR_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True\n    return False\ndef apply_spinning_top(row):\n    if row.body_top_perc < SPINNING_TOP_MAX:\n        if row.body_bottom_perc > SPINNING_TOP_MIN:\n            if row.body_perc < HANGING_MAN_BODY:\n                return True",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "apply_spinning_top",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def apply_spinning_top(row):\n    if row.body_top_perc < SPINNING_TOP_MAX:\n        if row.body_bottom_perc > SPINNING_TOP_MIN:\n            if row.body_perc < HANGING_MAN_BODY:\n                return True\n    return False\ndef apply_engulfing(row):\n    if row.direction != row.direction_prev:\n        if row.body_size > row.body_size_prev * ENGULFING_FACTOR:\n            return True",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "apply_engulfing",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def apply_engulfing(row):\n    if row.direction != row.direction_prev:\n        if row.body_size > row.body_size_prev * ENGULFING_FACTOR:\n            return True\n    return False\ndef apply_tweezer_top(row):\n    if abs(row.body_size_change) < TWEEZER_BODY:\n        if row.direction == -1 and row.direction != row.direction_prev:\n            if abs(row.low_change) < TWEEZER_HL and abs(row.high_change) < TWEEZER_HL:\n                if row.body_top_perc < TWEEZER_TOP_BODY:",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "apply_tweezer_top",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def apply_tweezer_top(row):\n    if abs(row.body_size_change) < TWEEZER_BODY:\n        if row.direction == -1 and row.direction != row.direction_prev:\n            if abs(row.low_change) < TWEEZER_HL and abs(row.high_change) < TWEEZER_HL:\n                if row.body_top_perc < TWEEZER_TOP_BODY:\n                    return True\n    return False               \ndef apply_tweezer_bottom(row):\n    if abs(row.body_size_change) < TWEEZER_BODY:\n        if row.direction == 1 and row.direction != row.direction_prev:",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "apply_tweezer_bottom",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def apply_tweezer_bottom(row):\n    if abs(row.body_size_change) < TWEEZER_BODY:\n        if row.direction == 1 and row.direction != row.direction_prev:\n            if abs(row.low_change) < TWEEZER_HL and abs(row.high_change) < TWEEZER_HL:\n                if row.body_bottom_perc > TWEEZER_BOTTOM_BODY:\n                    return True\n    return False     \ndef apply_morning_star(row, direction=1):\n    if row.body_perc_prev_2 > MORNING_STAR_PREV2_BODY:\n        if row.body_perc_prev < MORNING_STAR_PREV_BODY:",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "apply_morning_star",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def apply_morning_star(row, direction=1):\n    if row.body_perc_prev_2 > MORNING_STAR_PREV2_BODY:\n        if row.body_perc_prev < MORNING_STAR_PREV_BODY:\n            if row.direction == direction and row.direction_prev_2 != direction:\n                if direction == 1:\n                    if row.mid_c > row.mid_point_prev_2:\n                        return True\n                else:\n                    if row.mid_c < row.mid_point_prev_2:\n                        return True",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "apply_candle_props",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def apply_candle_props(df: pd.DataFrame):\n    df_an = df.copy()\n    direction = df_an.mid_c - df_an.mid_o\n    body_size = abs(direction)\n    direction = [1 if x >= 0 else -1 for x in direction]\n    full_range = df_an.mid_h - df_an.mid_l\n    body_perc = (body_size / full_range) * 100\n    body_lower = df_an[['mid_c','mid_o']].min(axis=1)\n    body_upper = df_an[['mid_c','mid_o']].max(axis=1)\n    body_bottom_perc = ((body_lower - df_an.mid_l) / full_range) * 100",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "set_candle_patterns",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def set_candle_patterns(df_an: pd.DataFrame):\n    df_an['HANGING_MAN'] = df_an.apply(apply_hanging_man, axis=1)\n    df_an['SHOOTING_STAR'] = df_an.apply(apply_shooting_star, axis=1)\n    df_an['SPINNING_TOP'] = df_an.apply(apply_spinning_top, axis=1)\n    df_an['MARUBOZU'] = df_an.apply(apply_marubozu, axis=1)\n    df_an['ENGULFING'] = df_an.apply(apply_engulfing, axis=1)\n    df_an['TWEEZER_TOP'] = df_an.apply(apply_tweezer_top, axis=1)\n    df_an['TWEEZER_BOTTOM'] = df_an.apply(apply_tweezer_bottom, axis=1)\n    df_an['MORNING_STAR'] = df_an.apply(apply_morning_star, axis=1)\n    df_an['EVENING_STAR'] = df_an.apply(apply_morning_star, axis=1, direction=-1)",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "apply_patterns",
+        "kind": 2,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "def apply_patterns(df: pd.DataFrame):\n    df_an = apply_candle_props(df)\n    set_candle_patterns(df_an)\n    return df_an",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "HANGING_MAN_BODY",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "HANGING_MAN_BODY = 15.0\nHANGING_MAN_HEIGHT = 75.0\nSHOOTING_STAR_HEIGHT = 25.0\nSPINNING_TOP_MIN = 40.0\nSPINNING_TOP_MAX = 60.0\nMARUBOZU = 98.0\nENGULFING_FACTOR = 1.1\nMORNING_STAR_PREV2_BODY = 90.0\nMORNING_STAR_PREV_BODY = 10.0\nTWEEZER_BODY = 15.0",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "HANGING_MAN_HEIGHT",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "HANGING_MAN_HEIGHT = 75.0\nSHOOTING_STAR_HEIGHT = 25.0\nSPINNING_TOP_MIN = 40.0\nSPINNING_TOP_MAX = 60.0\nMARUBOZU = 98.0\nENGULFING_FACTOR = 1.1\nMORNING_STAR_PREV2_BODY = 90.0\nMORNING_STAR_PREV_BODY = 10.0\nTWEEZER_BODY = 15.0\nTWEEZER_HL = 0.01",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "SHOOTING_STAR_HEIGHT",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "SHOOTING_STAR_HEIGHT = 25.0\nSPINNING_TOP_MIN = 40.0\nSPINNING_TOP_MAX = 60.0\nMARUBOZU = 98.0\nENGULFING_FACTOR = 1.1\nMORNING_STAR_PREV2_BODY = 90.0\nMORNING_STAR_PREV_BODY = 10.0\nTWEEZER_BODY = 15.0\nTWEEZER_HL = 0.01\nTWEEZER_TOP_BODY = 40.0",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "SPINNING_TOP_MIN",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "SPINNING_TOP_MIN = 40.0\nSPINNING_TOP_MAX = 60.0\nMARUBOZU = 98.0\nENGULFING_FACTOR = 1.1\nMORNING_STAR_PREV2_BODY = 90.0\nMORNING_STAR_PREV_BODY = 10.0\nTWEEZER_BODY = 15.0\nTWEEZER_HL = 0.01\nTWEEZER_TOP_BODY = 40.0\nTWEEZER_BOTTOM_BODY = 60.0",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "SPINNING_TOP_MAX",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "SPINNING_TOP_MAX = 60.0\nMARUBOZU = 98.0\nENGULFING_FACTOR = 1.1\nMORNING_STAR_PREV2_BODY = 90.0\nMORNING_STAR_PREV_BODY = 10.0\nTWEEZER_BODY = 15.0\nTWEEZER_HL = 0.01\nTWEEZER_TOP_BODY = 40.0\nTWEEZER_BOTTOM_BODY = 60.0\napply_marubozu = lambda x: x.body_perc > MARUBOZU",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "MARUBOZU",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "MARUBOZU = 98.0\nENGULFING_FACTOR = 1.1\nMORNING_STAR_PREV2_BODY = 90.0\nMORNING_STAR_PREV_BODY = 10.0\nTWEEZER_BODY = 15.0\nTWEEZER_HL = 0.01\nTWEEZER_TOP_BODY = 40.0\nTWEEZER_BOTTOM_BODY = 60.0\napply_marubozu = lambda x: x.body_perc > MARUBOZU\ndef apply_hanging_man(row):",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "ENGULFING_FACTOR",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "ENGULFING_FACTOR = 1.1\nMORNING_STAR_PREV2_BODY = 90.0\nMORNING_STAR_PREV_BODY = 10.0\nTWEEZER_BODY = 15.0\nTWEEZER_HL = 0.01\nTWEEZER_TOP_BODY = 40.0\nTWEEZER_BOTTOM_BODY = 60.0\napply_marubozu = lambda x: x.body_perc > MARUBOZU\ndef apply_hanging_man(row):\n    if row.body_bottom_perc > HANGING_MAN_HEIGHT:",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "MORNING_STAR_PREV2_BODY",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "MORNING_STAR_PREV2_BODY = 90.0\nMORNING_STAR_PREV_BODY = 10.0\nTWEEZER_BODY = 15.0\nTWEEZER_HL = 0.01\nTWEEZER_TOP_BODY = 40.0\nTWEEZER_BOTTOM_BODY = 60.0\napply_marubozu = lambda x: x.body_perc > MARUBOZU\ndef apply_hanging_man(row):\n    if row.body_bottom_perc > HANGING_MAN_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "MORNING_STAR_PREV_BODY",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "MORNING_STAR_PREV_BODY = 10.0\nTWEEZER_BODY = 15.0\nTWEEZER_HL = 0.01\nTWEEZER_TOP_BODY = 40.0\nTWEEZER_BOTTOM_BODY = 60.0\napply_marubozu = lambda x: x.body_perc > MARUBOZU\ndef apply_hanging_man(row):\n    if row.body_bottom_perc > HANGING_MAN_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "TWEEZER_BODY",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "TWEEZER_BODY = 15.0\nTWEEZER_HL = 0.01\nTWEEZER_TOP_BODY = 40.0\nTWEEZER_BOTTOM_BODY = 60.0\napply_marubozu = lambda x: x.body_perc > MARUBOZU\ndef apply_hanging_man(row):\n    if row.body_bottom_perc > HANGING_MAN_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True\n    return False",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "TWEEZER_HL",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "TWEEZER_HL = 0.01\nTWEEZER_TOP_BODY = 40.0\nTWEEZER_BOTTOM_BODY = 60.0\napply_marubozu = lambda x: x.body_perc > MARUBOZU\ndef apply_hanging_man(row):\n    if row.body_bottom_perc > HANGING_MAN_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True\n    return False\ndef apply_shooting_star(row):",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "TWEEZER_TOP_BODY",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "TWEEZER_TOP_BODY = 40.0\nTWEEZER_BOTTOM_BODY = 60.0\napply_marubozu = lambda x: x.body_perc > MARUBOZU\ndef apply_hanging_man(row):\n    if row.body_bottom_perc > HANGING_MAN_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True\n    return False\ndef apply_shooting_star(row):\n    if row.body_top_perc < SHOOTING_STAR_HEIGHT:",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "TWEEZER_BOTTOM_BODY",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "TWEEZER_BOTTOM_BODY = 60.0\napply_marubozu = lambda x: x.body_perc > MARUBOZU\ndef apply_hanging_man(row):\n    if row.body_bottom_perc > HANGING_MAN_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True\n    return False\ndef apply_shooting_star(row):\n    if row.body_top_perc < SHOOTING_STAR_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "apply_marubozu",
+        "kind": 5,
+        "importPath": "technicals.patterns",
+        "description": "technicals.patterns",
+        "peekOfCode": "apply_marubozu = lambda x: x.body_perc > MARUBOZU\ndef apply_hanging_man(row):\n    if row.body_bottom_perc > HANGING_MAN_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True\n    return False\ndef apply_shooting_star(row):\n    if row.body_top_perc < SHOOTING_STAR_HEIGHT:\n        if row.body_perc < HANGING_MAN_BODY:\n            return True",
+        "detail": "technicals.patterns",
+        "documentation": {}
+    },
+    {
+        "label": "oanda",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "oanda = oandapy.API(environment=\"practice\", access_token=\"your_access_token\")\n# Set up parameters for moving averages\nfast_ma_period = 10\nslow_ma_period = 20\n# Set up parameters for trade management\nunits = 1000\nstop_loss_pips = 20\ntake_profit_pips = 50\ntrailing_stop_pips = 10\n# Retrieve historical price data for USD/JPY",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "fast_ma_period",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "fast_ma_period = 10\nslow_ma_period = 20\n# Set up parameters for trade management\nunits = 1000\nstop_loss_pips = 20\ntake_profit_pips = 50\ntrailing_stop_pips = 10\n# Retrieve historical price data for USD/JPY\nresponse = oanda.instrument.candles(instrument=\"USD_JPY\", granularity=\"M1\", count=slow_ma_period*2)\ncandles = response.get(\"candles\")",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "slow_ma_period",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "slow_ma_period = 20\n# Set up parameters for trade management\nunits = 1000\nstop_loss_pips = 20\ntake_profit_pips = 50\ntrailing_stop_pips = 10\n# Retrieve historical price data for USD/JPY\nresponse = oanda.instrument.candles(instrument=\"USD_JPY\", granularity=\"M1\", count=slow_ma_period*2)\ncandles = response.get(\"candles\")\n# Convert price data to Pandas dataframe",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "units",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "units = 1000\nstop_loss_pips = 20\ntake_profit_pips = 50\ntrailing_stop_pips = 10\n# Retrieve historical price data for USD/JPY\nresponse = oanda.instrument.candles(instrument=\"USD_JPY\", granularity=\"M1\", count=slow_ma_period*2)\ncandles = response.get(\"candles\")\n# Convert price data to Pandas dataframe\ndf = pd.DataFrame(candles)\ndf[\"time\"] = pd.to_datetime(df[\"time\"])",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_pips",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "stop_loss_pips = 20\ntake_profit_pips = 50\ntrailing_stop_pips = 10\n# Retrieve historical price data for USD/JPY\nresponse = oanda.instrument.candles(instrument=\"USD_JPY\", granularity=\"M1\", count=slow_ma_period*2)\ncandles = response.get(\"candles\")\n# Convert price data to Pandas dataframe\ndf = pd.DataFrame(candles)\ndf[\"time\"] = pd.to_datetime(df[\"time\"])\ndf.set_index(\"time\", inplace=True)",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "take_profit_pips",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "take_profit_pips = 50\ntrailing_stop_pips = 10\n# Retrieve historical price data for USD/JPY\nresponse = oanda.instrument.candles(instrument=\"USD_JPY\", granularity=\"M1\", count=slow_ma_period*2)\ncandles = response.get(\"candles\")\n# Convert price data to Pandas dataframe\ndf = pd.DataFrame(candles)\ndf[\"time\"] = pd.to_datetime(df[\"time\"])\ndf.set_index(\"time\", inplace=True)\ndf[\"closeAsk\"] = df[\"ask\"].apply(lambda x: x[\"c\"])",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "trailing_stop_pips",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "trailing_stop_pips = 10\n# Retrieve historical price data for USD/JPY\nresponse = oanda.instrument.candles(instrument=\"USD_JPY\", granularity=\"M1\", count=slow_ma_period*2)\ncandles = response.get(\"candles\")\n# Convert price data to Pandas dataframe\ndf = pd.DataFrame(candles)\ndf[\"time\"] = pd.to_datetime(df[\"time\"])\ndf.set_index(\"time\", inplace=True)\ndf[\"closeAsk\"] = df[\"ask\"].apply(lambda x: x[\"c\"])\n# Calculate moving averages",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "response = oanda.instrument.candles(instrument=\"USD_JPY\", granularity=\"M1\", count=slow_ma_period*2)\ncandles = response.get(\"candles\")\n# Convert price data to Pandas dataframe\ndf = pd.DataFrame(candles)\ndf[\"time\"] = pd.to_datetime(df[\"time\"])\ndf.set_index(\"time\", inplace=True)\ndf[\"closeAsk\"] = df[\"ask\"].apply(lambda x: x[\"c\"])\n# Calculate moving averages\ndf[\"fast_ma\"] = df[\"closeAsk\"].rolling(fast_ma_period).mean()\ndf[\"slow_ma\"] = df[\"closeAsk\"].rolling(slow_ma_period).mean()",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "candles",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "candles = response.get(\"candles\")\n# Convert price data to Pandas dataframe\ndf = pd.DataFrame(candles)\ndf[\"time\"] = pd.to_datetime(df[\"time\"])\ndf.set_index(\"time\", inplace=True)\ndf[\"closeAsk\"] = df[\"ask\"].apply(lambda x: x[\"c\"])\n# Calculate moving averages\ndf[\"fast_ma\"] = df[\"closeAsk\"].rolling(fast_ma_period).mean()\ndf[\"slow_ma\"] = df[\"closeAsk\"].rolling(slow_ma_period).mean()\n# Check if fast MA crosses above slow MA",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "df = pd.DataFrame(candles)\ndf[\"time\"] = pd.to_datetime(df[\"time\"])\ndf.set_index(\"time\", inplace=True)\ndf[\"closeAsk\"] = df[\"ask\"].apply(lambda x: x[\"c\"])\n# Calculate moving averages\ndf[\"fast_ma\"] = df[\"closeAsk\"].rolling(fast_ma_period).mean()\ndf[\"slow_ma\"] = df[\"closeAsk\"].rolling(slow_ma_period).mean()\n# Check if fast MA crosses above slow MA\nif (df.iloc[-2][\"fast_ma\"] < df.iloc[-2][\"slow_ma\"]) and (df.iloc[-1][\"fast_ma\"] > df.iloc[-1][\"slow_ma\"]):\n  # Place long trade",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "df[\"time\"]",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "df[\"time\"] = pd.to_datetime(df[\"time\"])\ndf.set_index(\"time\", inplace=True)\ndf[\"closeAsk\"] = df[\"ask\"].apply(lambda x: x[\"c\"])\n# Calculate moving averages\ndf[\"fast_ma\"] = df[\"closeAsk\"].rolling(fast_ma_period).mean()\ndf[\"slow_ma\"] = df[\"closeAsk\"].rolling(slow_ma_period).mean()\n# Check if fast MA crosses above slow MA\nif (df.iloc[-2][\"fast_ma\"] < df.iloc[-2][\"slow_ma\"]) and (df.iloc[-1][\"fast_ma\"] > df.iloc[-1][\"slow_ma\"]):\n  # Place long trade\n  response = oanda.order.market(",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "df[\"closeAsk\"]",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "df[\"closeAsk\"] = df[\"ask\"].apply(lambda x: x[\"c\"])\n# Calculate moving averages\ndf[\"fast_ma\"] = df[\"closeAsk\"].rolling(fast_ma_period).mean()\ndf[\"slow_ma\"] = df[\"closeAsk\"].rolling(slow_ma_period).mean()\n# Check if fast MA crosses above slow MA\nif (df.iloc[-2][\"fast_ma\"] < df.iloc[-2][\"slow_ma\"]) and (df.iloc[-1][\"fast_ma\"] > df.iloc[-1][\"slow_ma\"]):\n  # Place long trade\n  response = oanda.order.market(\n      account_id=\"your_account_id\",\n      instrument=\"USD_JPY\",",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "df[\"fast_ma\"]",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "df[\"fast_ma\"] = df[\"closeAsk\"].rolling(fast_ma_period).mean()\ndf[\"slow_ma\"] = df[\"closeAsk\"].rolling(slow_ma_period).mean()\n# Check if fast MA crosses above slow MA\nif (df.iloc[-2][\"fast_ma\"] < df.iloc[-2][\"slow_ma\"]) and (df.iloc[-1][\"fast_ma\"] > df.iloc[-1][\"slow_ma\"]):\n  # Place long trade\n  response = oanda.order.market(\n      account_id=\"your_account_id\",\n      instrument=\"USD_JPY\",\n      units=units,\n      stop_loss=str(stop_loss_pips) + \"pips\",",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "df[\"slow_ma\"]",
+        "kind": 5,
+        "importPath": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "description": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "peekOfCode": "df[\"slow_ma\"] = df[\"closeAsk\"].rolling(slow_ma_period).mean()\n# Check if fast MA crosses above slow MA\nif (df.iloc[-2][\"fast_ma\"] < df.iloc[-2][\"slow_ma\"]) and (df.iloc[-1][\"fast_ma\"] > df.iloc[-1][\"slow_ma\"]):\n  # Place long trade\n  response = oanda.order.market(\n      account_id=\"your_account_id\",\n      instrument=\"USD_JPY\",\n      units=units,\n      stop_loss=str(stop_loss_pips) + \"pips\",\n      take_profit=str(take_profit_pips) + \"pips\"",
+        "detail": "Trade_Ideas.ChatGpt_Ideas.USD_JPY_Moving_average_bot_with_trend_risk",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass\n        tee_f.write(what)",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api, win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise\n            if silent:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.util, importlib.machinery\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info[0],\n        sys.version_info[1],\n        suffix,\n    )",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(\"-> %s\\\\%s[%s]=%r\" % (root_key_name, key_name, value_name, value))\n        finally:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(\"-> DELETE %s\\\\%s[%s]\" % (root_key_name, key_name, value_name))\n        finally:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n        like file_created to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api, win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):\n        this_dest = this_pyd + \".old\"",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(\"Failed to unregister COM objects: %s\" % (why,))\n    try:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location):\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError('Path \"{}\" does not exist!'.format(location))\n    return location\ndef main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python pywin32_postinstall.py -install\n    If you installed pywin32 via a .exe installer, this should be run\n    automatically after installation, but if it fails you can run it again.\n    If you installed pywin32 via PIP, you almost certainly need to run this to",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(os.path.join(tempfile.gettempdir(), \"pywin32_postinstall.log\"), \"w\")\nclass Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_postinstall",
+        "description": "venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True\nexcept NameError:",
+        "detail": "venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(\"*** Test script '%s' exited with %s\" % (script, result.returncode))\n    sys.stdout.flush()\n    if result.returncode:\n        failures.append(script)\ndef find_and_run(possible_locations, extras):",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [this_dir] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "this_dir",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "this_dir = os.path.dirname(__file__)\nsite_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": "venv.Scripts.pywin32_testall",
+        "description": "venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(\"*** Test script '%s' exited with %s\" % (script, result.returncode))",
+        "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    }
+]
