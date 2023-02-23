@@ -1,0 +1,2 @@
+2023-02-22 18:18:00 LogWrapper init() ./logs/EUR_GBP.log
+2023-02-22 18:18:00 {'n_ma': 20, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0014, 'riskreward': 1.3}
