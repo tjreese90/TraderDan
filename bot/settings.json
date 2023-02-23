@@ -1,0 +1,16 @@
+{
+    "USD_JPY":{
+        "n_ma": 20,
+        "n_std": 2.5,
+        "maxspread": 0.0004,
+        "mingain": 0.0014,
+        "riskreward": 1.3
+    },
+    "EUR_GBP":{
+        "n_ma": 20,
+        "n_std": 2.5,
+        "maxspread": 0.0004,
+        "mingain": 0.0014,
+        "riskreward": 1.3
+    }
+}
