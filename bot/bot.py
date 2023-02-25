@@ -1,5 +1,6 @@
 import json
 import time
+from bot.technicals_mamger import get_trade_decision
 from instrumentCollection.log_wrapper import LogWrapper
 from models.trade_settings import TradeSettings
 from api.oanda_api import OandaApi
@@ -36,6 +37,7 @@ class Bot:
         self.logs[Bot.ERROR_LOG] = LogWrapper(Bot.ERROR_LOG)
         self.logs[Bot.MAIN_LOG] = LogWrapper(Bot.MAIN_LOG)
         self.log_to_main(f"Bot started with {TradeSettings.settings_to_str(self.trade_settings)}")
+        
     def log_message(self, msg, key):
         self.logs[key].logger.debug(msg)
         
@@ -49,8 +51,9 @@ class Bot:
         if triggered is not None and len(triggered) > 0:
             self.log_message(f"process_candles triggerd:{triggered}", Bot.MAIN_LOG)
             for p in triggered:
-                pass
-            
+                last_time = self.candle_manger.timings[p].last_time
+                trade_decision = get_trade_decision(last_time, p, Bot.GRANULARITY, self.api, self.trade_settings[p], self.log_message)  
+       
     def run(self):
         while True:
             time.sleep(Bot.SLEEP)

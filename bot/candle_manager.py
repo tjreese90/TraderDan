@@ -26,5 +26,7 @@ class CandleManger:
                 self.timings[pair].is_ready = True
                 self.timings[pair].last_time = current
                 self.log_message(f"CandleManger() new candle:{self.timings[pair]}", pair)
+                triggerd.append(pair)
+        return triggerd
                 
            
