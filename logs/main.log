@@ -1,7 +1,7 @@
-2023-02-24 19:49:54 LogWrapper init() ./logs/main.log
-2023-02-24 19:49:54 Bot started with Trade Settings:
+2023-02-24 19:57:23 LogWrapper init() ./logs/main.log
+2023-02-24 19:57:23 Bot started with Trade Settings:
 {'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0014, 'riskreward': 1.5}
 {'n_ma': 10, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0014, 'riskreward': 1.5}
 {'n_ma': 10, 'n_std': 1.5, 'maxspread': 0.04, 'mingain': 0.14, 'riskreward': 1.5}
 
-2023-02-24 19:49:54 Bot Started
+2023-02-24 19:57:23 Bot Started
