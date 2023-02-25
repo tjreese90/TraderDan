@@ -1,5 +1,6 @@
 import json
 import time
+import constants.defs as defs
 from bot.technicals_mamger import get_trade_decision
 from instrumentCollection.log_wrapper import LogWrapper
 from models.trade_settings import TradeSettings
@@ -52,7 +53,13 @@ class Bot:
             self.log_message(f"process_candles triggerd:{triggered}", Bot.MAIN_LOG)
             for p in triggered:
                 last_time = self.candle_manger.timings[p].last_time
-                trade_decision = get_trade_decision(last_time, p, Bot.GRANULARITY, self.api, self.trade_settings[p], self.log_message)  
+                trade_decision = get_trade_decision(last_time, p, Bot.GRANULARITY, self.api, self.trade_settings[p], self.log_message)
+                
+                if trade_decision is not None and trade_decision.signal != defs.NONE:
+                    self.log_message(f"Place Trade: {trade_decision}", p)
+                    self.log_to_main(f"Place Trade: {trade_decision}")
+                    # Place Trade Logic will go here
+                 
        
     def run(self):
         while True:
