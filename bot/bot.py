@@ -1,5 +1,6 @@
 import json
 import time
+from bot.trade_manger import place_trade
 import constants.defs as defs
 from bot.technicals_mamger import get_trade_decision
 from instrumentCollection.log_wrapper import LogWrapper
@@ -12,7 +13,7 @@ class Bot:
 
     ERROR_LOG = "error"
     MAIN_LOG = "main"
-    GRANULARITY = "M1"
+    GRANULARITY = "M5"
     SLEEP = 10
 
     def __init__(self):
@@ -59,11 +60,16 @@ class Bot:
                     self.log_message(f"Place Trade: {trade_decision}", p)
                     self.log_to_main(f"Place Trade: {trade_decision}")
                     # Place Trade Logic will go here
+                    place_trade(trade_decision, self.api, self.log_message, self.log_to_error)
                  
        
     def run(self):
         while True:
             time.sleep(Bot.SLEEP)
-            self.process_candles(self.candle_manger.update_timings())
+            try:
+                self.process_candles(self.candle_manger.update_timings())
+            except Exception as error:
+                self.log_to_error(f"Crash:{error}")
+            break
     
         

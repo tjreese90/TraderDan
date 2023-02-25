@@ -30,8 +30,7 @@ class OandaApi:
         try:
             response = None
             if verb == "get":
-                response = self.session.get(full_url,params=params, data=data, headers=headers)
-                
+                response = self.session.get(full_url,params=params, data=data, headers=headers) # type: ignore
             if verb == "post":
                 response = self.session.post(full_url,params=params, data=data, headers=headers)
 
