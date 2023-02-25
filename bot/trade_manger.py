@@ -4,6 +4,8 @@ from models.trade_decision import TradeDecision
 
 def trade_is_open(pair, api: OandaApi):
     
+    print(api)
+    
     open_trades = api.get_open_trade() # type: ignore 
    
     for ot in open_trades:
