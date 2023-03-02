@@ -6,6 +6,6 @@ class CandleTiming:
         self.last_time = last_time
         self.is_ready = False
         
-    def __repr__(self) -> str:
+    def __repr__(self):
         return f"last_candle:{dt.datetime.strftime(self.last_time, '%y-%m-%d %H:%M')} is ready:{self.is_ready}"
         

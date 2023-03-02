@@ -2,7 +2,7 @@ import json
 import time
 from bot.trade_manger import place_trade
 import constants.defs as defs
-from bot.technicals_mamger import get_trade_decision
+from bot.technicals_manger import get_trade_decision
 from instrumentCollection.log_wrapper import LogWrapper
 from models.trade_settings import TradeSettings
 from api.oanda_api import OandaApi
@@ -14,7 +14,7 @@ class Bot:
     ERROR_LOG = "error"
     MAIN_LOG = "main"
     GRANULARITY = "M5"
-    SLEEP = 10
+    SLEEP = 120
 
     def __init__(self):
         self.load_settings()
@@ -22,7 +22,7 @@ class Bot:
         
         self.api = OandaApi()
         self.candle_manger = CandleManger(self.api, self.trade_settings, self.log_message, Bot.GRANULARITY)
-        
+        print(f"Does Candle manger ever get initalized in bot py {self.candle_manger}")
         self.log_to_main("Bot Started")
         self.log_to_error("Bot Failed")
         
@@ -42,15 +42,17 @@ class Bot:
         
     def log_message(self, msg, key):
         self.logs[key].logger.debug(msg)
-        
+
     def log_to_main(self, msg):
         self.log_message(msg, Bot.MAIN_LOG)
-    
+
     def log_to_error(self, msg):
         self.log_message(msg, Bot.ERROR_LOG)
         
     def process_candles(self, triggered):
-        if triggered is not None and len(triggered) > 0:
+        print(f"Value of {triggered}")
+        print(f"Len Triggered Count {len(triggered)}")
+        if len(triggered) > 0:
             self.log_message(f"process_candles triggerd:{triggered}", Bot.MAIN_LOG)
             for p in triggered:
                 last_time = self.candle_manger.timings[p].last_time
@@ -61,15 +63,14 @@ class Bot:
                     self.log_to_main(f"Place Trade: {trade_decision}")
                     # Place Trade Logic will go here
                     place_trade(trade_decision, self.api, self.log_message, self.log_to_error)
-                 
-       
+        else:
+            self.log_to_error(f"Failed to Start Process Candles since {triggered} is not defined")
+              
+            # You can add a Try Catch here if you find errors process_candles"   
     def run(self):
         while True:
             time.sleep(Bot.SLEEP)
-            try:
-                self.process_candles(self.candle_manger.update_timings())
-            except Exception as error:
-                self.log_to_error(f"Crash:{error}")
-            break
-    
+            self.process_candles(self.candle_manger.update_timings())
+            print(f"Result of using  process_caldnes {self.candle_manger.update_timings()} do i get a trigger back?")
+
         

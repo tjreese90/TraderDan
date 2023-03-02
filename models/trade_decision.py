@@ -8,4 +8,4 @@ class TradeDecision:
         self.pair = row.PAIR
         
     def __repr__(self):
-        return f"TradeDecision(): pair: {self.pair} dir:{self.signal} gain:{self.gain:.4f} s:{self.sl:.4f} tp:{self.tp:.4f}"
+        return f"TradeDecision(): pair: {self.pair} dir:{self.signal} gain:{self.gain:.4f} sl:{self.sl:.4f} tp:{self.tp:.4f}"
