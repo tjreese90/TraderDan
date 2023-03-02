@@ -1,23 +1,23 @@
 {
     "USD_JPY":{
-        "n_ma": 12,
-        "n_std": 2.5,
+        "n_ma": 18,
+        "n_std": 1.5,
         "maxspread": 0.0004,
-        "mingain": 0.0014,
+        "mingain": 0.0020,
         "riskreward": 1.5
     },
     "EUR_GBP":{
-        "n_ma": 10,
-        "n_std": 2.5,
+        "n_ma": 19,
+        "n_std": 1.5,
         "maxspread": 0.0004,
-        "mingain": 0.0014,
+        "mingain": 0.0017,
         "riskreward": 1.5
     },
     "GBP_JPY":{
-        "n_ma": 10,
+        "n_ma": 8,
         "n_std": 1.5,
-        "maxspread": 0.04,
-        "mingain": 0.14,
+        "maxspread": 0.0004,
+        "mingain": 0.0018,
         "riskreward": 1.5
     }
 }

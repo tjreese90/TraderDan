@@ -1,3 +1,4 @@
+import time
 import pandas as pd
 
 from models.trade_decision import TradeDecision
@@ -12,6 +13,7 @@ from models.trade_settings import TradeSettings
 import constants.defs as defs
 
 ADD_ROWS = 20
+SLEEP = 10
 
 # Is used to get the signal from a data frame
 def apply_signal(row, trade_settings: TradeSettings):
@@ -60,29 +62,44 @@ def process_candles(df: pd.DataFrame, pair, trade_settings: TradeSettings, log_m
 
 def fetch_candles(pair, row_count, candle_time, granularity, api: OandaApi, log_message):
     
-    df = api.get_candles_df(pair, count=row_count, granularity=granularity)
+    retry_count = 0
+    while retry_count < 3:
+        time.sleep(SLEEP)        
+        df = api.get_candles_df(pair, count=row_count, granularity=granularity)
+     
+        if df.iloc[-1].time != candle_time:
+            log_message(f"tech_manager fetch_candles {df.iloc[-1].time} not correct", pair)
+            retry_count += 1   
+            
+        if df is None or df.shape[0] == 0 and retry_count > 3:
+            log_message("tech_manger fetch_candles failed to get candles", pair)
+            retry_count += 1
     
-    if df is None or df.shape[0] == 0:
-        log_message("tech_manger fetch_candles failed to get candles", pair)
-        return None
-    
-    #  you can try to retry to get the candle 3 or 4 times and it sometimes works out.
-    if df.iloc[-1].time != candle_time:
-        log_message(f"tech_manger fetch_candles {df.iloc[-1].time} not correct", pair)
-        return None
-    
-    return df
+        if df is None or df.shape[0] == 0 or retry_count >= 3:
+            log_message("tech_manger fetch_candles failed to get candles", pair)
+            return None
+        print(df.empty)
+        if df.empty == False:
+            return df
+        else:
+            retry_count += 1 
 
 def get_trade_decision(candle_time, pair, granularity, api: OandaApi, trade_settings: TradeSettings, log_message):
     
     max_rows = trade_settings.n_ma + ADD_ROWS
     
-    log_message(f"tech_manger: max_rows{max_rows} candle_time:{candle_time} granularity:{granularity}", pair)
+    log_message(f"tech_manger: max_rows: {max_rows} candle_time: {candle_time} granularity: {granularity}", pair)
     
     df = fetch_candles(pair, max_rows, candle_time, granularity, api, log_message)
     
     if df is not None:
         last_row = process_candles(df, pair, trade_settings, log_message)
+        
+        # A great way test how TP and SL works when trade is detected
+        
+        if last_row.SIGNAL != defs.NONE:
+            log_message(f"SIGNAL:{last_row}\n", pair)
+        
         return TradeDecision(last_row)
     
     return None

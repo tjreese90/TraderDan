@@ -6,10 +6,10 @@ def trade_is_open(pair, api: OandaApi):
     
     print(api)
     
-    open_trades = api.get_open_trade() # type: ignore 
+    open_trades = api.get_open_trades() 
    
-    for ot in open_trades:
-        if ot.instrumemt == pair:
+    for ot in open_trades: # type: ignore
+        if ot.instrument == pair: # type: ignore
             return ot
     
     return None
