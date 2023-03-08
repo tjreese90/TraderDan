@@ -6,6 +6,7 @@ import constants.defs as defs
 from dateutil import parser
 from datetime import datetime as dt
 
+from models.api_price import ApiPrice
 from instrumentCollection.instrument_collection import instrumentCollection as ic
 import json
 
@@ -172,13 +173,29 @@ class OandaApi:
         ok, response = self.make_request(url)
 
         if ok == True and 'trades' in response:
-            return [OpenTrade(x) for x in response['trades']] # type: ignore    
+            return [OpenTrade(x) for x in response['trades']] # type: ignore
+    
+    def get_prices(self, instruments_list):
+        url = f"accounts/{defs.ACCOUNT_ID}/pricing"
+        
+        params = dict(
+            instruments=','.join(instruments_list)
+        )
+        
+        ok, response = self.make_request(url, params=params)
+        
+        if ok == True and 'prices' in response:
+            return [ApiPrice(x) for x in response['prices']] # type: ignore
+        
+        return None
         
     # def create_data_file(pair_name, count=10, granularity="H1"):
     #     code, data = fetch_candles(pair_name, count, granularity)
     #     if code != 200:
     #         print("Failed", pair_name, data)
-    #         return
+    #    l;
+    # 
+    # return
     #     if len(data) == 0:
     #         print("No candles", pair_name)
     #     candles_df = get_candles_df(data)
