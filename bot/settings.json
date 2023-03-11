@@ -1,5 +1,5 @@
 {
-    "trade_risk": 20, 
+    "trade_risk": 15, 
     "pairs": {
         "USD_JPY":{
             "n_ma": 18,
