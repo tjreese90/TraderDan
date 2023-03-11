@@ -2,8 +2,9 @@ from api.oanda_api import OandaApi
 from instrumentCollection.instrument_collection import instrumentCollection as ic
 import time
 from models.candle_timing import CandleTiming
-from bot.trade_risk_calculator import get_trade_units
 import constants.defs as defs
+from bot.trade_risk_calculator import get_trade_units
+
 
 def lm(msg, pair):
      print(msg, pair)
