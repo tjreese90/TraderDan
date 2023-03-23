@@ -1,6 +1,5 @@
 from api.oanda_api import OandaApi
 from instrumentCollection.instrument_collection import instrumentCollection as ic
-from api.steam_prices import steam_prices
 from stream_example.streamer import run_streamer
 
 
