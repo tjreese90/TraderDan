@@ -1,2 +1,41 @@
-2023-03-11 05:59:58 LogWrapper init() ./logs/error.log
-2023-03-11 05:59:58 Bot Failed
+2023-03-22 23:17:40 LogWrapper init() ./logs/error.log
+2023-03-22 23:17:41 Bot Failed
+2023-03-22 23:19:41 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:24:12 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:26:22 Error palcing TradeDecision(): pair: USD_JPY dir:-1 gain:0.1103 sl:130.8423 tp:130.6217
+2023-03-22 23:26:43 Error palcing TradeDecision(): pair: GBP_JPY dir:-1 gain:0.0850 sl:161.0510 tp:160.8810
+2023-03-22 23:28:43 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:33:14 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:35:45 Error palcing TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1073 sl:161.1393 tp:160.9247
+2023-03-22 23:37:45 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:39:45 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:44:16 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:48:47 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:50:58 Error palcing TradeDecision(): pair: USD_JPY dir:-1 gain:0.1634 sl:130.9814 tp:130.6546
+2023-03-22 23:53:18 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:55:49 Error palcing TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1116 sl:161.2276 tp:161.0044
+2023-03-22 23:57:49 Failed to Start Process Candles since [] is not defined
+2023-03-22 23:59:49 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:04:20 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:08:51 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:13:22 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:17:53 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:19:53 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:24:24 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:28:55 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:33:25 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:37:56 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:39:57 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:42:27 Error palcing TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1262 sl:161.3422 tp:161.0898
+2023-03-23 00:44:28 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:48:59 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:53:30 Failed to Start Process Candles since [] is not defined
+2023-03-23 00:55:40 Error palcing TradeDecision(): pair: USD_JPY dir:-1 gain:0.0817 sl:130.8937 tp:130.7303
+2023-03-23 00:58:01 Failed to Start Process Candles since [] is not defined
+2023-03-23 01:02:32 Failed to Start Process Candles since [] is not defined
+2023-03-23 01:04:33 Failed to Start Process Candles since [] is not defined
+2023-03-23 01:09:05 Failed to Start Process Candles since [] is not defined
+2023-03-23 01:13:36 Failed to Start Process Candles since [] is not defined
+2023-03-23 01:18:06 Failed to Start Process Candles since [] is not defined
+2023-03-23 01:22:37 Failed to Start Process Candles since [] is not defined
+2023-03-23 01:24:38 Failed to Start Process Candles since [] is not defined
