@@ -3,24 +3,21 @@ import requests
 from models.live_api_price import LiveApiPrice
 from instrumentCollection.log_wrapper import LogWrapper
 import constants.defs as defs
-import threading
 import pandas as pd
+import threading
 from timeit import default_timer as timer
+from stream_example.stream_base import StreamBase
 
 STREAM_URL = f"https://stream-fxpractice.oanda.com/v3/"
 
 
-class PriceStreamer(threading.Thread):
+class PriceStreamer(StreamBase):
     # Log every 60 seconds.
     LOG_FREQ = 60
     
-    def __init__(self, shared_prices, price_lock: threading.Lock, price_events):
-        super().__init__()
+    def __init__(self, shared_prices, price_lock, price_events):
+        super().__init__(shared_prices, price_lock, price_events, "PriceStreamer")
         self.pairs_list = shared_prices.keys()
-        self.price_lock = price_lock
-        self.price_events = price_events
-        self.shared_prices = shared_prices
-        self.log = LogWrapper("PrintStreamer")
         print(self.pairs_list)
         
     def fire_new_price_event(self, insturment):
@@ -29,17 +26,17 @@ class PriceStreamer(threading.Thread):
 
     def updated_live_price(self, live_price: LiveApiPrice):
         try:
-            self.price_lock.acquire()
+            self.price_lock.acquire()  # type: ignore
             self.shared_prices[live_price.instrument] = live_price
             self.fire_new_price_event(live_price.instrument)
         except Exception as error:
-            self.log.logger.error(f"Exception: {error}")
+            self.log_message(f"Exception: {error}", error=True)
         finally:
-            self.price_lock.release()
+            self.price_lock.release() # type: ignore
             
     def log_data(self):
-        self.log.logger.debug("")
-        self.log.logger.debug(f"\n{pd.DataFrame.from_dict([v.get_dict() for _, v in self.shared_prices.items()])}") # type: ignore
+        self.log_message("")
+        self.log_message(f"\n{pd.DataFrame.from_dict([v.get_dict() for _, v in self.shared_prices.items()])}") # type: ignore
         
         
     def run(self):
