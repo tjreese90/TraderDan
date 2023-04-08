@@ -1,46 +1,96 @@
-2023-03-22 23:17:40 LogWrapper init() ./logs/main.log
-2023-03-22 23:17:40 Bot started with Trade Settings:
+2023-04-06 06:14:28 LogWrapper init() ./logs/main.log
+2023-04-06 06:14:28 Bot started with Trade Settings:
 {'n_ma': 18, 'n_std': 1.5, 'maxspread': 0.025, 'mingain': 0.08, 'riskreward': 1.0}
 {'n_ma': 19, 'n_std': 1.5, 'maxspread': 0.0002, 'mingain': 0.0007, 'riskreward': 1.0}
 {'n_ma': 8, 'n_std': 1.5, 'maxspread': 0.04, 'mingain': 0.02, 'riskreward': 1.0}
 
-2023-03-22 23:17:41 Bot Started
-2023-03-22 23:21:41 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-22 23:26:12 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-22 23:26:22 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.1103 sl:130.8423 tp:130.6217
-2023-03-22 23:26:43 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.0850 sl:161.0510 tp:160.8810
-2023-03-22 23:30:43 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-22 23:31:14 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.0945 sl:161.0895 tp:160.9005
-2023-03-22 23:35:14 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-22 23:35:24 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.1380 sl:130.9040 tp:130.6280
-2023-03-22 23:35:45 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1073 sl:161.1393 tp:160.9247
-2023-03-22 23:41:46 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-22 23:46:16 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-22 23:46:26 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.1469 sl:130.9329 tp:130.6391
-2023-03-22 23:50:47 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-22 23:50:57 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.1634 sl:130.9814 tp:130.6546
-2023-03-22 23:51:18 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1037 sl:161.1867 tp:160.9793
-2023-03-22 23:55:18 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-22 23:55:49 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1116 sl:161.2276 tp:161.0044
-2023-03-23 00:01:50 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:06:21 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:10:51 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:15:22 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:21:53 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:26:24 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:30:55 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:31:25 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.0508 sl:161.1768 tp:161.0752
-2023-03-23 00:35:26 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:41:57 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:42:27 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1262 sl:161.3422 tp:161.0898
-2023-03-23 00:46:28 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:50:59 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:55:30 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 00:55:40 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.0817 sl:130.8937 tp:130.7303
-2023-03-23 00:56:00 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1086 sl:161.3526 tp:161.1354
-2023-03-23 01:00:01 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 01:06:33 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 01:07:03 Place Trade: TradeDecision(): pair: GBP_JPY dir:1 gain:0.0996 sl:160.9654 tp:161.1646
-2023-03-23 01:11:05 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 01:15:36 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
-2023-03-23 01:20:07 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 06:14:29 Bot Started
+2023-04-06 06:16:29 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 06:16:59 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.0788 sl:163.8698 tp:163.7122
+2023-04-06 06:21:00 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 06:21:30 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1389 sl:164.0119 tp:163.7341
+2023-04-06 06:25:31 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 06:26:01 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1525 sl:164.0685 tp:163.7635
+2023-04-06 06:30:02 process_candles triggerd:['USD_JPY', 'GBP_JPY']
+2023-04-06 06:30:22 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1546 sl:164.1066 tp:163.7974
+2023-04-06 06:36:23 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 06:40:54 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 06:41:24 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1948 sl:164.2648 tp:163.8752
+2023-04-06 06:45:25 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 06:51:56 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 06:56:27 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 06:56:37 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.0839 sl:131.6129 tp:131.4451
+2023-04-06 07:00:58 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:05:28 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:11:59 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:12:30 Place Trade: TradeDecision(): pair: GBP_JPY dir:1 gain:0.0367 sl:163.9493 tp:164.0227
+2023-04-06 07:16:30 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:17:01 Place Trade: TradeDecision(): pair: GBP_JPY dir:1 gain:0.1651 sl:163.6789 tp:164.0091
+2023-04-06 07:21:01 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:21:32 Place Trade: TradeDecision(): pair: GBP_JPY dir:1 gain:0.2089 sl:163.5591 tp:163.9769
+2023-04-06 07:25:32 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:25:42 Place Trade: TradeDecision(): pair: USD_JPY dir:1 gain:0.1551 sl:131.1399 tp:131.4501
+2023-04-06 07:26:03 Place Trade: TradeDecision(): pair: GBP_JPY dir:1 gain:0.3330 sl:163.2630 tp:163.9290
+2023-04-06 07:30:04 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:36:35 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:41:06 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:45:36 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:45:46 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.1310 sl:131.7090 tp:131.4470
+2023-04-06 07:50:07 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 07:50:18 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.1866 sl:131.8316 tp:131.4584
+2023-04-06 07:50:28 Place Trade: TradeDecision(): pair: EUR_GBP dir:-1 gain:0.0010 sl:0.8769 tp:0.8749
+2023-04-06 07:56:39 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:01:10 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:05:41 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:05:51 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.2617 sl:132.0097 tp:131.4863
+2023-04-06 08:10:12 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:16:43 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:21:14 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:25:45 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:26:05 Place Trade: TradeDecision(): pair: EUR_GBP dir:-1 gain:0.0013 sl:0.8781 tp:0.8756
+2023-04-06 08:30:16 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:36:47 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:37:17 Place Trade: TradeDecision(): pair: GBP_JPY dir:1 gain:0.0943 sl:163.3897 tp:163.5783
+2023-04-06 08:41:18 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:45:49 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:50:20 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:56:51 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 08:57:11 Place Trade: TradeDecision(): pair: EUR_GBP dir:-1 gain:0.0011 sl:0.8784 tp:0.8762
+2023-04-06 09:01:22 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:01:52 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1132 sl:163.7792 tp:163.5528
+2023-04-06 09:05:53 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:06:03 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.1635 sl:131.9995 tp:131.6725
+2023-04-06 09:10:24 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:10:54 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.2015 sl:163.9915 tp:163.5885
+2023-04-06 09:16:56 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:17:16 Place Trade: TradeDecision(): pair: EUR_GBP dir:-1 gain:0.0013 sl:0.8792 tp:0.8767
+2023-04-06 09:21:27 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:25:58 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:26:08 Place Trade: TradeDecision(): pair: USD_JPY dir:-1 gain:0.1201 sl:131.9651 tp:131.7249
+2023-04-06 09:30:29 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:37:00 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:37:30 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1144 sl:163.9844 tp:163.7556
+2023-04-06 09:41:31 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:46:02 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:46:32 Place Trade: TradeDecision(): pair: GBP_JPY dir:1 gain:0.0750 sl:163.6320 tp:163.7820
+2023-04-06 09:50:33 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 09:55:04 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:01:35 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:01:55 Place Trade: TradeDecision(): pair: EUR_GBP dir:-1 gain:0.0009 sl:0.8793 tp:0.8775
+2023-04-06 10:06:06 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:10:37 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:15:08 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:21:39 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:26:10 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:30:41 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:30:51 Place Trade: TradeDecision(): pair: USD_JPY dir:1 gain:0.0900 sl:131.5900 tp:131.7700
+2023-04-06 10:31:11 Place Trade: TradeDecision(): pair: GBP_JPY dir:1 gain:0.1068 sl:163.5712 tp:163.7848
+2023-04-06 10:35:12 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:41:44 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:42:14 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.0619 sl:163.9029 tp:163.7791
+2023-04-06 10:46:15 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:46:45 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.0987 sl:163.9827 tp:163.7853
+2023-04-06 10:50:46 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:55:17 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
+2023-04-06 10:55:47 Place Trade: TradeDecision(): pair: GBP_JPY dir:-1 gain:0.1348 sl:164.0828 tp:163.8132
+2023-04-06 11:01:48 process_candles triggerd:['USD_JPY', 'EUR_GBP', 'GBP_JPY']
