@@ -1,34 +1,41 @@
 from bs4 import BeautifulSoup
 
-with open("./scraping/index.html", "r") as f:
+with open("index.html", "r") as f:
     data = f.read()
+
+#print(data)
 
 soup = BeautifulSoup(data, 'html.parser')
 
-# print(soup)
+#print(soup)
 
-divs = soup.select("div")
+divs = list(soup.select("div"))
 
-# print(len(divs), "divs found")
+#print(len(divs), "divs found")
 
-# for d in divs:
-#     print()
-#     print(d)
-    
-print("content:",divs[0].get_text())
+#for d in divs:
+#    print("\n --> ")
+#    print(d)
 
-div2 = divs[1]
+#print(divs[0].get_text())
+#print(divs[1].get_text())
 
-pps =div2.select("p")
 
-print("PPS:")
+pps = divs[1].select("p")
 
-for p in pps:
-    print(p.get_text())
+#print(len(pps), "ps found")
+#for p in pps:
+#    print(p.get_text())
 
-print("dailies:")
+
 dailies = soup.select(".daily")
-for d in dailies:
-    print(d.get_text())
-    
-print(dailies[1].attrs['data-value'])
+#for p in dailies:
+#    print("daily:", p)
+
+ourp = dailies[1]
+
+print(ourp)
+print(ourp.get_text())
+print(ourp.attrs['data-value'])
+
+
