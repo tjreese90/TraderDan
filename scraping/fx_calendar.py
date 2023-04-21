@@ -66,15 +66,15 @@ def get_fx_calendar(from_date):
     }
 
     # -- try this -- #
-    #resp = session.get("https://tradingeconomics.com/calendar", headers=headers)
-    #soup = BeautifulSoup(resp.content, 'html.parser')
+    resp = session.get("https://tradingeconomics.com/calendar", headers=headers)
+    soup = BeautifulSoup(resp.content, 'html.parser')
     # ---
     
     
     # -- when it doesn't work, use the mockup -- #
-    with open("./scraping/mock_files/fx_calendar.html", "r", encoding="utf-8") as f:
-        resp = f.read()
-        soup = BeautifulSoup(resp, 'html.parser')
+    # with open("./scraping/mock_files/fx_calendar.html", "r", encoding="utf-8") as f:
+    #     resp = f.read()
+    #     soup = BeautifulSoup(resp, 'html.parser')
     # ---
 
 
@@ -105,8 +105,8 @@ def fx_calendar():
     
     final_data = []
 
-    start = parser.parse("2022-03-07T00:00:00Z")
-    end = parser.parse("2022-03-25T00:00:00Z")
+    start = parser.parse("2023-04-12T00:00:00Z")
+    end = parser.parse("2023-04-28T00:00:00Z")
 
     while start < end:
         print(start)
