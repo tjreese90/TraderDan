@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "astype",
         "attemps",
         "Bollinger",
         "dailyfx",
@@ -24,6 +25,7 @@
         "startrow",
         "technicals",
         "timestr",
+        "trendline",
         "xaxes",
         "xaxis",
         "xlsxwriter",
