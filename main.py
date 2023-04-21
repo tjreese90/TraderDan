@@ -20,10 +20,12 @@ def db_test():
     # d.add_one(DataDB.SAMPLE_COLL,  dict(age=12, name='unlceSam', street="elm"))
 
 if __name__ == '__main__':
-    #  api = OandaApi()
-    #  ic.LoadInstruments("./data")
+     api = OandaApi()
+    #  ic.CreateDB(api.get_account_instruments())
+     ic.LoadInstrumentsDB()
+     print(ic.instruments_dict)
     #  # steam_prices(['EUR_USD', 'AUD_NZD', 'GBP_JPY'])
     #  run_streamer()
-    d = DataDB()
-    d.test_connection()
-    db_test()
+    # d = DataDB()
+    # d.test_connection()
+    # db_test()
