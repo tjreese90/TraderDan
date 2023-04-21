@@ -11,3 +11,5 @@ SECURE_HEADER = {
 SELL = -1
 BUY = 1
 NONE = 0
+
+MONGO_CONN_STR="mongodb+srv://admin:Lowso900@cluster0.allolgl.mongodb.net/?retryWrites=true&w=majority"
