@@ -8,11 +8,12 @@ function App() {
         <BrowserRouter>
             <div id="app-holder">
                 <NavigationBar/>
-                <div className="container"></div>
+                <div className="container">
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/dashboard" element={<Dashboard/>}/>
                 </Routes>
+                </div>
             </div>
         </BrowserRouter>
     </>
