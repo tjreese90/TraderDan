@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin:0;
+    font-family: 'Anek Odia', sans-serif;
+}
+
+#app-holder {
+ display: flex;
+ flex-direction: column;
+}
+
+#navbar {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.navtitle {
+    font-size: large;
+    font-weight: 700;
+    padding: 1rem;
+}

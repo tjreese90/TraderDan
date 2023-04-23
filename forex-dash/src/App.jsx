@@ -1,9 +1,21 @@
-
+import NavigationBar from "./components/NavigationBar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
 function App() {
   return (
-    <div>
-        Hello
-    </div>
+    <>
+        <BrowserRouter>
+            <div id="app-holder">
+                <NavigationBar/>
+                <div className="container"></div>
+                <Routes>
+                    <Route exact path="/" element={<Home/>}/>
+                    <Route exact path="/dashboard" element={<Dashboard/>}/>
+                </Routes>
+            </div>
+        </BrowserRouter>
+    </>
   );
 }
 
