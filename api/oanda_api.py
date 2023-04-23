@@ -186,6 +186,16 @@ class OandaApi:
             return [ApiPrice(x, response['homeConversions']) for x in response['prices']] # type: ignore
         
         return None
+    
+    def web_api_candles(self, pair_name, granularity, count):
+        df = self.get_candles_df(pair_name, granularity=granularity, count=count)
+        if df.shape[0] == 0:
+            return None
+        
+        cols = ['time', 'mid_o', 'mid_h', 'mid_l', 'mid_c']
+        df = df[cols].copy()
+        df['time'] = df.time.dt.strftime("%y-%m-%d %H:%M")
+        return df.to_dict(orient='list')
         
     # def create_data_file(pair_name, count=10, granularity="H1"):
     #     code, data = fetch_candles(pair_name, count, granularity)
