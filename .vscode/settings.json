@@ -11,6 +11,7 @@
         "gridcolor",
         "iloc",
         "iterrows",
+        "jsonify",
         "Keltner",
         "MACD",
         "marubozu",

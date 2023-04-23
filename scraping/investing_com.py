@@ -4,6 +4,7 @@ import requests
 import datetime as dt
 import time
 import cloudscraper
+import constants.defs as defs
 
 data_keys = [
     'pair_name',
@@ -86,3 +87,19 @@ def investing_com():
         break
 
     return pd.DataFrame.from_dict(data)
+
+def get_pair(pair_name, tf):
+    
+    tfs = {
+        "H1": 3600,
+        "D": 86400
+    }
+    
+    if tf not in tfs:
+        tf = tfs['H1']
+    else:
+        tf = tfs[tf]
+        
+    if pair_name in defs.INVESTING_COM_PAIRS:
+        pair_id = defs.INVESTING_COM_PAIRS[pair_name]['pair_id']
+        return investing_com_fetch(pair_id, tf)
