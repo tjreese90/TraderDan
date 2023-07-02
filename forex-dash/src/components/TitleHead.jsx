@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TitleHead({title}) {
+function TitleHead({ title }) {
   return (
     <div className='titleHead'>
         <h2>{title}</h2>

@@ -1,32 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import endPoints from '../app/api';
+import Headline from './Headline';
 import TitleHead from './TitleHead'
-import endPoints from '../app/api'
-import { useState, useEffect } from 'react'
-import Headline from './Headline'
 
 function Headlines() {
 
-const [headlines, setHeadlines] = useState(null)
+  const [headlines, setHeadlines] = useState(null);
 
-useEffect(() => {
-    loadAccount();
-}, [])
+  useEffect(() => {
+      loadHeadlines();
+  }, [])
 
-const loadAccount = async () =>{
-    const data = await(endPoints.headlines());
-    setHeadlines(data);
-}
-
-
+  const loadHeadlines = async () => {
+      const data = await endPoints.headlines();
+      setHeadlines(data);
+  }
   return (
     <div>
-        
         <TitleHead title="Headlines" />
-        <div className='segment'>
-            {headlines && headlines.map((item, index) => {
-                console.log(item)
-                return <Headline key={index} data={item} />
-            })}
+        <div className="segment">
+          {
+            headlines && headlines.map((item, index) => {
+              return <Headline data={item} key={index} />
+            })
+          }
         </div>
     </div>
   )
