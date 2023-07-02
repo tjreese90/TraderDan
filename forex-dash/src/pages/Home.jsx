@@ -3,12 +3,12 @@ import AccountSummary from '../components/AccountSummary'
 import Headlines from '../components/Headlines'
 
 function Home() {
-  return (
-    <>
-        <AccountSummary />
-        <Headlines />
-    </>
-  )
+    return (
+        <>
+            <AccountSummary />
+            <Headlines />
+        </>
+    )
 }
 
 export default Home
