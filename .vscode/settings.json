@@ -8,6 +8,7 @@
         "dt",
         "fillna",
         "forex",
+        "granularities",
         "gridcolor",
         "iloc",
         "iterrows",
