@@ -1,40 +1,50 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
+from api.oanda_api import OandaApi
+from api.web_options import get_options
+import http
 from scraping.bloomberg_com import bloomberg_com
 from scraping.investing_com import get_pair
-from api.oanda_api import OandaApi
 
 app = Flask(__name__)
 CORS(app)
-# NOTE: We must start the DB Server or Back-end Server and then the yarn start
 
-@app.route('/api/test')
+def get_response(data):
+    if data is None:
+        return jsonify(dict(message='error getting data')), http.HTTPStatus.NOT_FOUND
+    else:
+        return jsonify(data)
+
+
+@app.route("/api/test")
 def test():
-    return jsonify(dict(message='hello world'))
+    return jsonify(dict(message='hello'))
 
-@app.route('/api/account')
-def account():
-    return jsonify(OandaApi().get_account_summary())
 
-@app.route('/api/headlines')
+@app.route("/api/headlines")
 def headlines():
-    return jsonify(bloomberg_com())
+    return get_response(bloomberg_com())
 
-@app.route('/api/technicals/<pair>/<tfs>')
-def technicals(pair, tfs):
-    data = get_pair(pair, tfs)
-    if data is None:
-        return jsonify(dict(message='No data found'))
-    else:
-        return jsonify(data)
-    
-@app.route('/api/prices/<pair>/<granularity>/<count>')
+
+@app.route("/api/account")
+def account():
+    return get_response(OandaApi().get_account_summary())
+
+
+@app.route("/api/options")
+def options():
+    return get_response(get_options())
+
+
+@app.route("/api/technicals/<pair>/<tf>")
+def technicals(pair, tf):
+    return get_response(get_pair(pair, tf))
+
+
+@app.route("/api/prices/<pair>/<granularity>/<count>")
 def prices(pair, granularity, count):
-    data = OandaApi().web_api_candles(pair, granularity, count)
-    if data is None:
-        return jsonify(dict(message='No data found'))
-    else:
-        return jsonify(data)
+    return get_response(OandaApi().web_api_candles(pair, granularity, count))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     app.run(debug=True)
