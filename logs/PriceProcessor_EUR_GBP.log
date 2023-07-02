@@ -1,1 +1,3 @@
-2023-03-25 01:57:12 LogWrapper init() ./logs/PriceProcessor_EUR_GBP.log
+2023-07-01 19:37:40 LogWrapper init() ./logs/PriceProcessor_EUR_GBP.log
+2023-07-01 19:37:40 Found Price : LiveApiPrice() EUR_GBP 0.85974 0.85897
+2023-07-01 19:37:43 Done Proccesing : LiveApiPrice() EUR_GBP 0.85974 0.85897

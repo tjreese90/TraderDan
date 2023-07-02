@@ -1,6 +1,7 @@
 from api.oanda_api import OandaApi
 from instrumentCollection.instrument_collection import instrumentCollection as ic
 from stream_example.streamer import run_streamer
+
 from DB.db import DataDB
 
 def db_test():
@@ -22,10 +23,16 @@ def db_test():
 if __name__ == '__main__':
      api = OandaApi()
     #  ic.CreateDB(api.get_account_instruments())
-     ic.LoadInstrumentsDB()
-     print(ic.instruments_dict)
-    #  # steam_prices(['EUR_USD', 'AUD_NZD', 'GBP_JPY'])
+    # Returns a List of instruments pairs object with data
+    #  ic.LoadInstrumentsDB()
+    #  print(ic.instruments_dict)
+     
+     # We added this into run_streamer logic it looks like
+     # steam_prices(['EUR_USD', 'AUD_NZD', 'GBP_JPY'])
+    # NOTE: run_stream() may only run during OANDA Market Hours
     #  run_streamer()
-    # d = DataDB()
-    # d.test_connection()
-    # db_test()
+    # NOTE: We are connecting to the mongoDB here and fetching data we have stored.
+     d = DataDB()
+     # Return the columns from our data base could have better names
+     d.test_connection()
+     db_test()
