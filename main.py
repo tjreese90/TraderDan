@@ -10,15 +10,15 @@ def db_test():
     print(d.query_distinct(DataDB.SAMPLE_COLL, "age"))
     
     # data = [
-    #     dict(age=12, name='unlceSam', street="elm"),
-    #     dict(age=72, name='jale', eyes='purple'),
-    #     dict(age=42, name='hobert', eyes='green'),
-    #     dict(age=22, name='yace', eyes='yellow'),
+    #     dict(age=12, name='uncleSam', street="elm"),
+    #     dict(age=72, name='jael', eyes='purple'),
+    #     dict(age=42, name='hobart', eyes='green'),
+    #     dict(age=22, name='yacc', eyes='yellow'),
     #     dict(age=14, name='Ace', eyes='blue')
     # ]
     
     # d.add_many(DataDB.SAMPLE_COLL, data) 
-    # d.add_one(DataDB.SAMPLE_COLL,  dict(age=12, name='unlceSam', street="elm"))
+    # d.add_one(DataDB.SAMPLE_COLL,  dict(age=12, name='uncleSam', street="elm"))
 
 if __name__ == '__main__':
      api = OandaApi()
