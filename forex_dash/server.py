@@ -15,7 +15,6 @@ def get_response(data):
     else:
         return jsonify(data)
 
-
 @app.route("/api/test")
 def test():
     return jsonify(dict(message='hello'))
