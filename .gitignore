@@ -1,3 +1,56 @@
 node_modules
 venv/Lib
+# Python-specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+pip-log.txt
+
+# Virtual environment
+venv/
+.venv/
+env/
+.ENV/
+
+# Trading bot-specific
+*.log
+*.csv
+*.h5
+*.pkl
+*.sqlite
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Package files
+/dist/
+/build/
+*.egg-info/
+
+# Data directories
+/data/
+/output/
+
+# Ignore the secret configuration file containing sensitive information
+config.ini
 
