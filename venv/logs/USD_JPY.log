@@ -1,0 +1,3 @@
+2023-07-09 03:24:29 LogWrapper init() ./logs/USD_JPY.log
+2023-07-09 03:24:29 {'n_ma': 18, 'n_std': 1.5, 'maxspread': 0.025, 'mingain': 0.08, 'riskreward': 1.0}
+2023-07-09 03:24:29 CandleManger() init last_candle:last_candle:23-07-07 20:58 is ready:False

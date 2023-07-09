@@ -1,0 +1,26 @@
+{
+    "trade_risk": 15,
+    "pairs": {
+        "USD_JPY": {
+            "n_ma": 18,
+            "n_std": 1.5,
+            "maxspread": 0.025,
+            "mingain": 0.080000,
+            "riskreward": 1.0
+        },
+        "EUR_GBP": {
+            "n_ma": 19,
+            "n_std": 1.5,
+            "maxspread": 0.00020,
+            "mingain": 0.00070,
+            "riskreward": 1.0
+        },
+        "GBP_JPY": {
+            "n_ma": 8,
+            "n_std": 1.5,
+            "maxspread": 0.040,
+            "mingain": 0.020000,
+            "riskreward": 1.0
+        }
+    }
+}
