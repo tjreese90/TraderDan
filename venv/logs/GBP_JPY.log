@@ -1,3 +1,0 @@
-2023-07-09 03:24:29 LogWrapper init() ./logs/GBP_JPY.log
-2023-07-09 03:24:29 {'n_ma': 8, 'n_std': 1.5, 'maxspread': 0.04, 'mingain': 0.02, 'riskreward': 1.0}
-2023-07-09 03:24:29 CandleManger() init last_candle:last_candle:23-07-07 20:58 is ready:False
