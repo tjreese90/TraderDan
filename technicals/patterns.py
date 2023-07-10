@@ -40,8 +40,12 @@ def apply_spinning_top(row):
 def apply_engulfing(row):
     if row.direction != row.direction_prev:
         if row.body_size > row.body_size_prev * ENGULFING_FACTOR:
-            return True
+            if row.direction == 1 and row.mid_c < row.mid_o_prev:  # Bearish Engulfing
+                return 1
+            elif row.direction == -1 and row.mid_c > row.mid_o_prev:  # Bullish Engulfing
+                return -1
     return False
+
 
 def apply_tweezer_top(row):
     if abs(row.body_size_change) < TWEEZER_BODY:
