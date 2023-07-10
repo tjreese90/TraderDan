@@ -28,7 +28,7 @@ class CandleManger:
             if current > self.timings[pair].last_time:
                 self.timings[pair].is_ready = True
                 self.timings[pair].last_time = current
-                self.log_message(
-                    f"CandleManger() new candle:{self.timings[pair]}", pair)
+                self.log_message(f"CandleManger() new candle:{self.timings[pair]}", pair)
+                print(f"CandleManger() new candle:{self.timings[pair]}")
                 triggered.append(pair)
         return triggered

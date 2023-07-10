@@ -5,8 +5,6 @@ from bot.trade_risk_calculator import get_trade_units
 
 def trade_is_open(pair, api: OandaApi):
     
-    print(api)
-    
     open_trades = api.get_open_trades() 
    
     for ot in open_trades: # type: ignore
