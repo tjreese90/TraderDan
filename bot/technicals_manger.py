@@ -32,9 +32,9 @@ def apply_signal(row, trade_settings: TradeSettings):
     """
 
     if row.SPREAD <= trade_settings.maxspread and row.GAIN >= trade_settings.mingain:
-        if row.mid_c > row.BB_UP and row.mid_o < row.BB_UP or row.SELL_SIGNAL == -1:
+        if row.SELL_SIGNAL == -1:
             return defs.SELL
-        elif row.mid_c < row.BB_LW and row.mid_o > row.BB_LW or row.BUY_SIGNAL == 1:
+        elif row.BUY_SIGNAL == 1:
             return defs.BUY
     return defs.NONE
 
