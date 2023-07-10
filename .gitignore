@@ -54,3 +54,8 @@ Thumbs.db
 # Ignore the secret configuration file containing sensitive information
 config.ini
 
+bot/__pycache__/bot.cpython-311.pyc
+bot/__pycache__/bot.cpython-311.pyc
+
+/*.pyc
+
