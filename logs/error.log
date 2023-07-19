@@ -1,2 +1,5 @@
-2023-07-09 22:20:07 LogWrapper init() ./logs/error.log
-2023-07-09 22:20:07 Bot started
+2023-07-19 02:24:26 LogWrapper init() ./logs/error.log
+2023-07-19 02:24:26 Bot started
+2023-07-19 02:24:37 Failed to Start Process Candles since [] is not defined
+2023-07-19 02:24:47 Failed to Start Process Candles since [] is not defined
+2023-07-19 02:24:57 Failed to Start Process Candles since [] is not defined

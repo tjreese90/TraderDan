@@ -1,9 +1,9 @@
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
+# from sklearn.ensemble import RandomForestClassifier
+# from sklearn.svm import SVC
 import pandas as pd
 import numpy as np
-from keras.models import Sequential
-from keras.layers import LSTM, Dense
+# from keras.models import Sequential
+# from keras.layers import LSTM, Dense
 
 # Improved this code Tradingview.
 
