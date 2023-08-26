@@ -5,8 +5,9 @@ class TradeSettings:
         self.n_std = ob['n_std']
         self.maxspread = ob['maxspread']
         self.mingain = ob['mingain']
-        self.riskreward = ob['riskreward']
-        
+        self.LOSS_FACTOR = ob["LOSS_FACTOR"]
+        self.PROFIT_FACTOR = ob["PROFIT_FACTOR"]
+     
     def __repr__(self):
         return str(vars(self))
     

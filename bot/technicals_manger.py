@@ -30,12 +30,12 @@ def apply_signal(row, trade_settings: TradeSettings):
     Returns:
         str: The signal.
     """
-
+    #NOTE: A lot of logic for placing sell and buy signals are located in indicatory.py
     if row.SPREAD <= trade_settings.maxspread and row.GAIN >= trade_settings.mingain:
         if row.SELL_SIGNAL == -1:
-            return defs.SELL
-        elif row.BUY_SIGNAL == 1:
             return defs.BUY
+        elif row.BUY_SIGNAL == 1:
+            return defs.SELL
     return defs.NONE
 
 
@@ -50,29 +50,29 @@ def apply_SL(row, trade_settings: TradeSettings):
     Returns:
         float: The stop loss price.
     """
-
-    if row.SIGNAL == defs.BUY:
-        return row.mid_c - (abs(row.GAIN) / trade_settings.riskreward)
-    elif row.SIGNAL == defs.SELL:
-        return row.mid_c + (abs(row.GAIN) / trade_settings.riskreward)
+    if row.BUY_SIGNAL == 1:
+        return row.mid_c + (abs(row.GAIN) * abs(trade_settings.LOSS_FACTOR))
+    elif row.SELL_SIGNAL == -1:
+        return row.mid_c - (abs(row.GAIN) * abs(trade_settings.PROFIT_FACTOR))
     return 0.0
 
 
-def apply_TP(row):
+
+def apply_TP(row, trade_settings: TradeSettings):
     """
     Get the take profit price from a data frame row.
 
     Args:
         row (pd.DataFrame): The data frame row.
-
++
     Returns:
         float: The take profit price.
     """
 
-    if row.SIGNAL == defs.BUY:
-        return row.mid_c + abs(row.GAIN)
-    elif row.SIGNAL == defs.SELL:
-        return row.mid_c - abs(row.GAIN)
+    if row.BUY_SIGNAL == 1:
+       return row.mid_c + (abs(row.GAIN) * abs(trade_settings.PROFIT_FACTOR))
+    elif row.SELL_SIGNAL == -1:
+        return row.mid_c + (abs(row.GAIN) * abs(trade_settings.LOSS_FACTOR))
     return 0.0
 
 
@@ -111,7 +111,7 @@ def process_candles(df: pd.DataFrame, pair, trade_settings: TradeSettings, log_m
 
     # Calculate the stop loss and take profit prices for each candle.
 
-    df['TP'] = df.apply(apply_TP, axis=1)
+    df['TP'] = df.apply(apply_TP, axis=1, trade_settings=trade_settings)
     df['SL'] = df.apply(apply_SL, axis=1, trade_settings=trade_settings)
     df['LOSS'] = abs(df.mid_c - df.SL)
 

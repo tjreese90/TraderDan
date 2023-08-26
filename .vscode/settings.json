@@ -6,6 +6,7 @@
         "dailyfx",
         "dropna",
         "dt",
+        "ffill",
         "fillna",
         "forex",
         "granularities",
@@ -38,5 +39,6 @@
         "xlsxwriter",
         "yaxes"
     ],
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "git.ignoreLimitWarning": true
 }

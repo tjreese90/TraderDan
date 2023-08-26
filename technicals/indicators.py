@@ -21,8 +21,6 @@ def BollingerBands(df: pd.DataFrame, n=20, s=1.5):
     df['SELL_SIGNAL'] = np.where(
         (df.mid_c < df['BB_LW']) | (df.mid_c > df['BB_UP']), -1, 0)
 
-    df['SIGNAL'] = df['BUY_SIGNAL'] | df['SELL_SIGNAL']
-    df['SIGNAL'].replace(to_replace=0, method='ffill', inplace=True)
     return df
 
 

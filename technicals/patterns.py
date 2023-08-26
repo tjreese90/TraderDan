@@ -40,10 +40,7 @@ def apply_spinning_top(row):
 def apply_engulfing(row):
     if row.direction != row.direction_prev:
         if row.body_size > row.body_size_prev * ENGULFING_FACTOR:
-            if row.direction == 1 and row.mid_c < row.mid_o_prev:  # Bearish Engulfing
-                return 1
-            elif row.direction == -1 and row.mid_c > row.mid_o_prev:  # Bullish Engulfing
-                return -1
+            return True
     return False
 
 
@@ -104,6 +101,7 @@ def apply_candle_props(df: pd.DataFrame):
     df_an['body_size'] = body_size
     df_an['low_change'] = low_change
     df_an['high_change'] = high_change
+    df_an['mid_o_prev'] = df_an.mid_o.shift(1)
     df_an['body_size_change'] = body_size_change
     df_an['mid_point'] = mid_point
     df_an['mid_point_prev_2'] = mid_point.shift(2)
@@ -128,5 +126,6 @@ def set_candle_patterns(df_an: pd.DataFrame):
 
 def apply_patterns(df: pd.DataFrame):
     df_an = apply_candle_props(df)
+    print(df.head())
     set_candle_patterns(df_an)
     return df_an
