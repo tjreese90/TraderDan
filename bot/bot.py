@@ -19,7 +19,7 @@ class Bot:
     def __init__(self):
         self.load_settings()
         self.setup_logs()
-
+        self.triggered_count = 0
         self.api = OandaApi()
         self.candle_manager = CandleManger(
             self.api, self.trade_settings, self.log_message, Bot.GRANULARITY)
@@ -56,6 +56,7 @@ class Bot:
     def process_candles(self, triggered):
         # Process triggered pairs and make trade decisions based on candle data
         if len(triggered) > 0:
+            self.triggered_count = 0
             self.log_message(
                 f"process_candles triggerd:{triggered}", Bot.MAIN_LOG)
             for p in triggered:
@@ -70,18 +71,27 @@ class Bot:
                     place_trade(trade_decision, self.api, self.log_message,
                                 self.log_to_error, self.trade_risk)
         else:
-            self.log_to_error(
-                f"Failed to Start Process Candles since {triggered} is not defined")
+            # Increment the counter each time there are no triggered items
+            self.triggered_count += 1
+            if self.triggered_count >= 3:  # Check if the condition has been met at least 3 times
+                self.log_to_error(
+                    f"Failed to Start Process Candles 3+ times since {triggered} is not defined")
+                self.triggered_count = 0  # Reset the counter after logging
 
             # You can add a Try Catch here if you find errors process_candles"
-
 
     def run(self):
         # Wait for a specified amount of time before executing the next iteration of the loop
         while True:
-            time.sleep(Bot.SLEEP)
-            # Update the timings of the candles and process them
-            self.process_candles(self.candle_manager.update_timings())
             # Print the result of the process_candles function
-            print(
-                f"Result of using process_candles {self.candle_manager.update_timings()} do I get a trigger back?")
+            timings = self.candle_manager.update_timings()
+            if timings != []:
+                self.process_candles(timings)
+                print(f"Process candles for pairs: {timings}")
+            else:
+                while not timings:
+                    print("Timings are empty. Retrying after sleep...")
+                    time.sleep(Bot.SLEEP)
+                    timings = self.candle_manager.update_timings()
+            self.process_candles(timings)
+            print(f"Process candles for pairs after retry: {timings}")

@@ -23,8 +23,8 @@ class CandleManger:
                 self.log_message("Unable to get candle", pair)
                 continue
             self.timings[pair].is_ready = False
-            print(f"Current Candle Value for pair: {current}")
-            print(f"Last candle time for pair {self.timings[pair].last_time}")
+            print(f"Current Candle time for pair: {current.strftime('%B %d, %Y - %I:%M %p')}")
+            print(f"Last candle time for pair: {self.timings[pair].last_time.strftime('%B %d, %Y - %I:%M %p')}")
             if current > self.timings[pair].last_time:
                 self.timings[pair].is_ready = True
                 self.timings[pair].last_time = current

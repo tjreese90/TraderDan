@@ -1,29 +1,29 @@
 {
-    "trade_risk": 85,
+    "trade_risk": 100,
     "pairs": {
         "USD_JPY": {
             "n_ma": 18,
             "n_std": 1.5,
             "maxspread": 0.025,
-            "mingain": 0.080000,
-            "LOSS_FACTOR": -1.0,
-            "PROFIT_FACTOR": 2.8
+            "mingain": 0.060000,
+            "LOSS_FACTOR": -0.8,
+            "PROFIT_FACTOR": 1.8
         },
         "EUR_GBP": {
-            "n_ma": 19,
-            "n_std": 1.5,
+            "n_ma": 20,
+            "n_std": 2.2,
             "maxspread": 0.00020,
-            "mingain": 0.00070,
-            "LOSS_FACTOR": -1.0,
-            "PROFIT_FACTOR": 2.8
+            "mingain": 0.00060,
+            "LOSS_FACTOR": -0.8,
+            "PROFIT_FACTOR": 1.8
         },
         "GBP_JPY": {
-            "n_ma": 8,
-            "n_std": 1.5,
+            "n_ma": 20,
+            "n_std": 2.5,
             "maxspread": 0.040,
-            "mingain": 0.020000,
-            "LOSS_FACTOR": -1.0,
-            "PROFIT_FACTOR": 2.8
+            "mingain": 0.0060000,
+            "LOSS_FACTOR": -0.8,
+            "PROFIT_FACTOR": 1.8
         }
     }
 }

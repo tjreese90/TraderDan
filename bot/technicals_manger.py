@@ -11,8 +11,8 @@ pd.set_option('display.max_columns', None)
 pd.set_option('expand_frame_repr', False)
 
 # Constants
-ADD_ROWS = 20
-SLEEP = 10
+ADD_ROWS = 30
+SLEEP = 8
 
 # Is used to get the signal from a data frame
 
@@ -68,7 +68,7 @@ def apply_TP(row, trade_settings: TradeSettings):
     Returns:
         float: The take profit price.
     """
-
+    
     if row.BUY_SIGNAL == 1:
        return row.mid_c + (abs(row.GAIN) * abs(trade_settings.PROFIT_FACTOR))
     elif row.SELL_SIGNAL == -1:
