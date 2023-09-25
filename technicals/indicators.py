@@ -8,19 +8,41 @@ import numpy as np
 # Improved this code Tradingview.
 
 
-def BollingerBands(df: pd.DataFrame, n=20, s=1.5):
+def BollingerBands(df: pd.DataFrame, n=20, s=1.5, rsi_period=14, rsi_overbought=70, rsi_oversold=30):
     typical_p = (df.mid_c + df.mid_h + df.mid_l) / 3
     stddev = typical_p.ewm(span=n, min_periods=n - 1).std()
     df['BB_MA'] = typical_p.ewm(span=n, min_periods=n - 1).mean()
     df['BB_UP'] = df['BB_MA'] + stddev * s
     df['BB_LW'] = df['BB_MA'] - stddev * s
-
-    df['BUY_SIGNAL'] = np.where(
-        df.mid_c > df['BB_UP'], 1, 0)
-
-    df['SELL_SIGNAL'] = np.where(
-        (df.mid_c < df['BB_LW']) | (df.mid_c > df['BB_UP']), -1, 0)
-
+    
+    # Band Width
+    df['BB_WIDTH'] = df['BB_UP'] - df['BB_LW']
+    
+    # RSI (Relative Strength Index)
+    delta = df['mid_c'].diff()
+    gain = (delta.where(delta > 0, 0)).fillna(0)
+    loss = (-delta.where(delta < 0, 0)).fillna(0)
+    avg_gain = gain.rolling(window=rsi_period, min_periods=1).mean()
+    avg_loss = loss.rolling(window=rsi_period, min_periods=1).mean()
+    rs = avg_gain / avg_loss
+    df['RSI'] = 100 - (100 / (1 + rs))
+    
+    # Basic Buy and Sell signals based on Bollinger Bands
+    df['BUY_SIGNAL'] = np.where(df.mid_c < df['BB_LW'], 1, 0)
+    df['SELL_SIGNAL'] = np.where(df.mid_c > df['BB_UP'], -1, 0)
+    
+    # Filtering signals using RSI
+    df['BUY_SIGNAL'] = np.where((df['BUY_SIGNAL'] == 1) & (df['RSI'] < rsi_oversold), 1, 0)
+    df['SELL_SIGNAL'] = np.where((df['SELL_SIGNAL'] == -1) & (df['RSI'] > rsi_overbought), -1, 0)
+    
+    # Slope of the Bollinger Bands
+    df['BB_MA_SLOPE'] = df['BB_MA'].diff()
+    df['BUY_SIGNAL'] = np.where((df['BUY_SIGNAL'] == 1) & (df['BB_MA_SLOPE'] > 0), 1, 0)
+    df['SELL_SIGNAL'] = np.where((df['SELL_SIGNAL'] == -1) & (df['BB_MA_SLOPE'] < 0), -1, 0)
+    
+    # Combining signals into a single column
+    df['SIGNAL'] = df['BUY_SIGNAL'] + df['SELL_SIGNAL']
+    
     return df
 
 

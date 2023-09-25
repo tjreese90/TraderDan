@@ -1,28 +1,4 @@
-2023-09-05 21:30:50 LogWrapper init() ./logs/error.log
-2023-09-05 21:30:50 Bot started
-2023-09-05 21:37:13 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0252 sl:147.4955 tp:147.5912
-2023-09-05 22:13:11 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0299 sl:147.4222 tp:147.5359
-2023-09-05 23:08:13 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0330 sl:147.4277 tp:147.5530
-2023-09-05 23:48:07 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0317 sl:185.2032 tp:185.3237
-2023-09-06 00:01:07 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0421 sl:147.2602 tp:147.4201
-2023-09-06 00:38:09 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0799 sl:147.0332 tp:147.3369
-2023-09-06 00:38:17 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0547 sl:185.0799 tp:185.2877
-2023-09-06 00:51:20 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0842 sl:184.8322 tp:185.1522
-2023-09-06 02:29:13 Error palcing TradeDecision(): pair: EUR_GBP dir:1 gain:0.0005 sl:0.8524 tp:0.8541
-2023-09-06 02:58:08 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0384 sl:147.2806 tp:147.4264
-2023-09-06 03:30:05 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0359 sl:147.2994 tp:147.4359
-2023-09-06 03:47:13 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0346 sl:147.2871 tp:147.4186
-2023-09-06 04:13:10 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0470 sl:184.9463 tp:185.1250
-2023-09-06 04:24:15 Error palcing TradeDecision(): pair: EUR_GBP dir:1 gain:0.0005 sl:0.8527 tp:0.8545
-2023-09-06 04:41:21 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0737 sl:184.8977 tp:185.1777
-2023-09-06 05:06:13 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0828 sl:184.7162 tp:185.0308
-2023-09-06 05:27:13 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0620 sl:184.8214 tp:185.0570
-2023-09-06 06:27:19 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0532 sl:184.8589 tp:185.0612
-2023-09-06 06:32:06 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0435 sl:147.2293 tp:147.3945
-2023-09-06 07:01:05 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0375 sl:147.2450 tp:147.3875
-2023-09-06 07:06:05 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0878 sl:147.0093 tp:147.3428
-2023-09-06 07:37:21 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0681 sl:184.6252 tp:184.8841
-2023-09-06 07:38:06 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0825 sl:147.0200 tp:147.3335
-2023-09-06 08:27:05 Error palcing TradeDecision(): pair: USD_JPY dir:1 gain:0.0627 sl:147.1024 tp:147.3407
-2023-09-06 08:27:14 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0985 sl:184.5411 tp:184.9155
-2023-09-06 08:31:22 Error palcing TradeDecision(): pair: GBP_JPY dir:1 gain:0.2125 sl:183.9669 tp:184.7745
+2023-09-25 11:32:40 LogWrapper init() ./logs/error.log
+2023-09-25 11:32:41 Bot started
+2023-09-25 15:54:18 Error placing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0235 sl:181.8258 tp:181.8494
+2023-09-25 15:55:30 Error placing TradeDecision(): pair: GBP_JPY dir:1 gain:0.0362 sl:181.8519 tp:181.8881
